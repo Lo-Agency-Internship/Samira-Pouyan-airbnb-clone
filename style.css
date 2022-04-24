@@ -1,0 +1,74 @@
+body{   
+    background-color:white ;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    }
+    .a-logo{
+        width: 118px;
+        margin-left: 64px;
+    }
+    .central-menu{
+        display: flex;
+        list-style: none;
+       margin-left: 100px;
+       text-decoration: none;
+       
+    }
+    .central-menu li{
+        margin: 20px;
+        font-size:18px ;
+    }
+    .central-menu li a{
+        text-decoration: none;
+        color:white;
+    }
+    .right-menu{
+        display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    margin-right: 30px;
+    }
+    .right-menu li{
+        margin: 20px;
+        font-size:18px ;
+    }
+    .right-menu li a{
+        text-decoration: none;
+        color: white;
+    }
+    .user{
+        display: flex;
+        background-color: white;
+        height: 42px;
+        width: 77px;
+        border-radius: 40%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+    .web{
+        width: 30px;
+        color:white;
+    }
+.menu{
+    width: 20px;
+    margin-bottom: 20px;
+}
+    .user-icon {
+        width: 40px;
+        border-radius: 50%;
+        align-self: baseline;
+        margin-bottom: 20px;   
+    }
+    
