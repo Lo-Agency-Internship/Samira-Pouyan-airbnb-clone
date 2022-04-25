@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>airbnb-project</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Airbnb: Vacation Rentals, Cabin, Beach Houses, Unique Homes & ...</title>
+    <link rel="icon" href="img/airbnb_apps_platform_icon_176100.png">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <style type="text/css" media="screen, print">
+        @font-face {
+          font-family: "PlusJakarta";
+          src: url("fonts/jakarta/PlusJakartaSans-Regular.ttf") format("truetype");
+        }
+      </style>
+  </head>
+
+  <body>
+
     <header class="header">
-        <img class="a-logo" src="img/2a.png" alt="">
-        <ul class="central-menu">
-        <li> <a href="#">Place to stay</a> </li>
-        <li> <a href="#">Experiences</a> </li>
-        <li> <a href="#">Online Experiences</a> </li>
-        </ul>
-    <ul class="right-menu">
-    <li><a href="#">Become a Host</a></li>
-    <li><a href="#" ><i class="material-icons">&#xe894;</i></a></li>
+      <img class="a-logo" src="img/2a.png" alt="" />
 
-    <div class="user">
-        <li><a href="#"><img class= menu src="img/hamburger.svg"></a></li>
-        <li><a href="#"><img class="user-icon" src="img/account.svg"></a></li>
+      <ul class="central-menu">
+        <li><a href="#" id="central-menu-l1">Places to stay</a></li>
+        <li><a href="#" id="central-menu-l2">Experiences</a></li>
+        <li><a href="#" id="central-menu-l3">Online Experiences</a></li>
+      </ul>
+
+      <ul class="right-menu">
+        <li>
+          <span id="right-menu-background-become"></span>
+          <a href="#" id="right-menu-become">Become a Host</a>
+        </li>
+        <li id="right-menu-background-language">
+          <a href="#"><img id="language" src="img/lang.svg" alt="language menu"></a>
+        </li>
+        <div class="user">
+          <li>
+            <a href="#"><img id="menu" src="img/hamburger.svg" /></a>
+          </li>
+          <li>
+            <a href="#"><img id="user-icon" src="img/account.svg" /></a>
+          </li>
+        </div>
+      </ul>
+    </header>
+
+    <div class="content">
+      <div>Main Section Here</div>
     </div>
-        </ul>
-        </header>
 
-    <main>
-    <div>Main Section Here</div>
-    </main>
-</div>
-    <footer>
-        <div>footer here</div>
+    <footer class="footer">
+      <div>footer here</div>
     </footer>
-    </div>
-</body>
+  </body>
 </html>
