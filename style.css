@@ -1,6 +1,11 @@
 body{   
     background-color:white ;
     margin: 0;
+    width: 87.33333333333%;
+    height: 100vw;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #000000 0%,#000000 50%,#ffffff 50%,#ffffff 100%);
+    font-family: PlusJakarta;
 }
 
 .header{
@@ -13,62 +18,97 @@ body{
     height: 80px;
     }
     .a-logo{
-        width: 118px;
-        margin-left: 64px;
+        width: 11.5%;
+        height: 115.5%;
+        margin-left: -1%;
     }
     .central-menu{
         display: flex;
         list-style: none;
-       margin-left: 100px;
-       text-decoration: none;
-       
+        margin-left: 10%;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        line-height: 20px;
     }
     .central-menu li{
-        margin: 20px;
-        font-size:18px ;
+        display: flex;
+        position: relative;
     }
     .central-menu li a{
         text-decoration: none;
-        color:white;
+        color: white;
+        font-size: 16px;
+        /* margin-left: 0%; */
+    }
+
+    #central-menu-l1{
+        position: relative;
+        left: -57%;
+    }
+    #central-menu-l2{
+        position: relative;
+        left: -34%;
+    }
+    #central-menu-l3{
+        position: relative;
+        left: -2%;
     }
     .right-menu{
         display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 30%;
-    margin-right: 30px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 30%;
+        align-items: center;
     }
     .right-menu li{
-        margin: 20px;
-        font-size:18px ;
+        display: flex;
+        position: relative;
     }
     .right-menu li a{
+        position: relative;
         text-decoration: none;
         color: white;
+        font-size: 13px;
+        font-weight: bold;
     }
-    .user{
-        display: flex;
+    #right-menu-become{
+        position: relative;
+        right: 45%;
+    }
+    #right-menu-background-become{
+    }
+    #right-menu-background-language{
+    }
+    #language{
+        position: relative;
+        width: 96%;
+        height: 18px;
         background-color: white;
-        height: 42px;
-        width: 77px;
-        border-radius: 40%;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-top: 10px;
-    }
-    .web{
-        width: 30px;
-        color:white;
-    }
-.menu{
-    width: 20px;
-    margin-bottom: 20px;
-}
-    .user-icon {
-        width: 40px;
-        border-radius: 50%;
-        align-self: baseline;
-        margin-bottom: 20px;   
+        filter: invert(100%);
+        right: 76%;
+        
     }
     
+    .user{
+        display: flex;
+        position: relative;
+        background-color: white;
+        height: 42px;
+        width: 40%;
+        border-radius: 42px;
+        left: 2%;
+    }
+    #menu{
+        position: relative;
+        width: 43%;
+        bottom: -13px;
+        left: 13px;
+    }
+    #user-icon {
+        position: relative;
+        width: 78%;
+        right: -6%;
+        bottom: -13%;
+    }
