@@ -56,6 +56,10 @@ body{
     }
     .right-menu{
         display: flex;
+        position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -65,6 +69,9 @@ body{
     .right-menu li{
         display: flex;
         position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
     }
     .right-menu li a{
         position: relative;
@@ -72,43 +79,80 @@ body{
         color: white;
         font-size: 13px;
         font-weight: bold;
+        display: flex;
+        position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
+    }
+    
+    #right-menu-background-become{
+        display: flex;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
+        background: transparent;
+        border-radius: 24px;
+        width: 100%;
+        height: 38px;
+        right: 22%;
+    }
+    #right-menu-background-become:hover{
+        background: grey;
     }
     #right-menu-become{
         position: relative;
-        right: 45%;
+        left: 0%;
     }
-    #right-menu-background-become{
-    }
+
     #right-menu-background-language{
+        display: flex;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
+        right: 10%;
+        width: 28%;
+        height: 28px;
+        background: transparent;
+        border-radius: 24px;
     }
+    #right-menu-background-language:hover{
+        background: grey;
+    }
+    
     #language{
         position: relative;
-        width: 96%;
-        height: 18px;
-        background-color: white;
+        width: 103%;
+        height: 19px;
         filter: invert(100%);
-        right: 76%;
-        
+        right: 5%;
+        top: 1px;
     }
     
     .user{
         display: flex;
         position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
         background-color: white;
         height: 42px;
-        width: 40%;
+        width: 64%;
         border-radius: 42px;
         left: 2%;
     }
     #menu{
         position: relative;
         width: 43%;
-        bottom: -13px;
-        left: 13px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
     }
     #user-icon {
         position: relative;
         width: 78%;
-        right: -6%;
-        bottom: -13%;
+        /* right: -6%;
+        bottom: -13%; */
     }
