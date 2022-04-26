@@ -24,36 +24,56 @@ body{
     }
     .central-menu{
         display: flex;
+        position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
         list-style: none;
         margin-left: 10%;
-        justify-content: center;
         width: 100%;
-        align-items: center;
         line-height: 20px;
     }
     .central-menu li{
         display: flex;
         position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
     }
     .central-menu li a{
+        display: flex;
+        position: relative;
+        align-items: center;
+        align-content:center;
+        justify-content: center;
         text-decoration: none;
         color: white;
-        font-size: 16px;
-        /* margin-left: 0%; */
+        font-size: 15px;
+    }
+    /* -------------------------------------------- */
+    #central-menu-li1{
+        right: 11%;
+    }
+    #central-menu-li2{
+        right: 5.5%;
+    }
+    #central-menu-li3{
+        right: 0%;
     }
 
-    #central-menu-l1{
+    #central-menu-a1{
         position: relative;
-        left: -57%;
     }
-    #central-menu-l2{
+    
+    #central-menu-a2{
         position: relative;
-        left: -34%;
+        /* left: -34%; */
     }
-    #central-menu-l3{
+    #central-menu-a3{
         position: relative;
-        left: -2%;
+        /* left: -2%; */
     }
+    /* ------------------------------------------ */
     .right-menu{
         display: flex;
         position: relative;
