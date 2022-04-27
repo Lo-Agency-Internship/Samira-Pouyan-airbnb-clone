@@ -14,6 +14,8 @@ body {
   font-family: PlusJakarta;
 }
 
+/* header starts here */
+/* ---------------------------------------------------------- */
 .header {
   display: flex;
   align-items: center;
@@ -23,11 +25,17 @@ body {
   width: 100%;
   height: 80px;
 }
+
+/* logo in heder starts here */
+/* ---------------------------------------------------------- */
 .a-logo {
   width: 11.5%;
   height: 115.5%;
   margin-left: -1%;
 }
+
+/* central menu in header starts here */
+/* ---------------------------------------------------------- */
 .central-menu {
   display: flex;
   position: relative;
@@ -46,6 +54,7 @@ body {
   align-content: center;
   justify-content: center;
 }
+
 .central-menu a:hover {
   display: flex;
   position: relative;
@@ -88,7 +97,7 @@ body {
   color: white;
   font-size: 15px;
 }
-/* -------------------------------------------- */
+/* ----------------------------------- */
 #central-menu-li1 {
   right: 11%;
 }
@@ -111,7 +120,9 @@ body {
   position: relative;
   /* left: -2%; */
 }
-/* ------------------------------------------ */
+
+/* right menu in header starts here */
+/* ---------------------------------------------------------- */
 .right-menu {
   display: flex;
   position: relative;
@@ -143,7 +154,7 @@ body {
   align-content: center;
   justify-content: center;
 }
-
+/* -----------------become host------------------- */
 #right-menu-background-become {
   display: flex;
   align-items: center;
@@ -162,7 +173,7 @@ body {
   position: relative;
   left: 0%;
 }
-
+/* -----------------language------------------------ */
 #right-menu-background-language {
   display: flex;
   align-items: center;
@@ -186,7 +197,7 @@ body {
   right: 5%;
   top: 1px;
 }
-
+/* ---------------user-------------------------- */
 .user {
   display: flex;
   position: relative;
@@ -212,5 +223,129 @@ body {
   position: relative;
   width: 78%;
   /* right: -6%;
-        bottom: -13%; */
+            bottom: -13%; */
 }
+
+/* main content starts here */
+/* ---------------------------------------------------------- */
+
+/* search bar in main content starts here */
+/* ---------------------------------------------------------- */
+
+.search-bar {
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 32px;
+  width: 77%;
+  height: 66px;
+  margin: 0 auto;
+  color: black;
+  align-items: center;
+}
+/* ---------------------------------- */
+.search-bar ul {
+}
+#search-bar-ul1 {
+  position: relative;
+  left: 1%;
+}
+#search-bar-ul2 {
+  position: relative;
+  left: -10%;
+  border-left: 1px solid;
+  border-left-style: groove;
+}
+#search-bar-ul3 {
+  position: relative;
+  left: -6%;
+  border-left: 1px solid;
+  border-left-style: groove;
+}
+#search-bar-ul4 {
+  position: relative;
+  left: 1%;
+  border-left: 1px solid;
+  border-left-style: groove;
+}
+.search-bar li {
+  position: relative;
+  list-style: none;
+  left: -7%;
+}
+/* ---------------------------------- */
+#search-bar-ul1-location {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul1-where {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* ---------------------------------- */
+#search-bar-ul2-check-in {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul2-add-dates1 {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* ---------------------------------- */
+#search-bar-ul3-check-out {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul3-add-dates2 {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* ---------------------------------- */
+#search-bar-ul4-guests {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul4-add-guests {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* --------search-bar-magnifier------- */
+#search-bar-magnifier {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.5%;
+  height: 48px;
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(255, 56, 92) 0%,
+    rgb(230, 30, 77) 27.5%,
+    rgb(227, 28, 95) 40%,
+    rgb(215, 4, 102) 57.5%,
+    rgb(189, 30, 89) 75%,
+    rgb(189, 30, 89) 100%
+  );
+  border-radius: 24px;
+  left: -1%;
+}
+#search-icon-image {
+  position: relative;
+  display: flex;
+  width: 33%;
+  height: 31%;
+  left: 1%;
+}
+#search-text {
+  /* font-size: 16px;
+        font-weight: bold;
+        color: white; */
+}
+
+/* search bar in main content starts here */
+/* ---------------------------------------------------------- */
+
+/* red section in main content starts here */
+/* ---------------------------------------------------------- */
