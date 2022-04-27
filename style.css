@@ -11,7 +11,7 @@ body {
     #ffffff 50%,
     #ffffff 100%
   );
-  font-family: PlusJakarta;
+  font-family: Circular;
 }
 
 /* header starts here */
@@ -344,8 +344,44 @@ body {
         color: white; */
 }
 
-/* search bar in main content starts here */
-/* ---------------------------------------------------------- */
-
 /* red section in main content starts here */
 /* ---------------------------------------------------------- */
+
+#redSection-help-refugees {
+  background-color: #ff385c;
+  height: 341.84px;
+  border-radius: 12px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 6.9%;
+}
+#redSection-help-refugees-div{
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  bottom: 4%;
+}
+#help {
+  padding-left: 80px;
+  padding-right: 80px;
+  background: #ff385c;
+  font-size: 37px;
+  font-weight: bolder;
+  color: white;
+  line-height: 54%;
+}
+#LearnMore{
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  padding: 8.6px 16.5px;
+  text-decoration: none;
+  font-weight: bold;
+}
