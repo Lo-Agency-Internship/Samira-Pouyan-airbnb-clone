@@ -1,158 +1,318 @@
-body{   
-    background-color:white ;
-    margin: 0;
-    width: 87.33333333333%;
-    height: 100vw;
-    margin: 0 auto;
-    background: linear-gradient(to bottom, #000000 0%,#000000 50%,#ffffff 50%,#ffffff 100%);
-    font-family: PlusJakarta;
+body {
+  background-color: white;
+  margin: 0;
+  width: 87.33333333333%;
+  height: 100vw;
+  margin: 0 auto;
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #000000 50%,
+    #ffffff 50%,
+    #ffffff 100%
+  );
+  font-family: PlusJakarta;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:black;
-    color: white;
-    width: 100%;
-    height: 80px;
-    }
-    .a-logo{
-        width: 11.5%;
-        height: 115.5%;
-        margin-left: -1%;
-    }
-    .central-menu{
-        display: flex;
-        list-style: none;
-        margin-left: 10%;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        line-height: 20px;
-    }
-    .central-menu li{
-        display: flex;
-        position: relative;
-    }
-    .central-menu li a{
-        text-decoration: none;
-        color: white;
-        font-size: 16px;
-        /* margin-left: 0%; */
-    }
+/* header starts here */
+/* ---------------------------------------------------------- */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 80px;
+}
 
-    #central-menu-l1{
-        position: relative;
-        left: -57%;
-    }
-    #central-menu-l2{
-        position: relative;
-        left: -34%;
-    }
-    #central-menu-l3{
-        position: relative;
-        left: -2%;
-    }
-    .right-menu{
-        display: flex;
-        position: relative;
-        align-items: center;
-        align-content:center;
-        justify-content: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        width: 30%;
-        align-items: center;
-    }
-    .right-menu li{
-        display: flex;
-        position: relative;
-        align-items: center;
-        align-content:center;
-        justify-content: center;
-    }
-    .right-menu li a{
-        position: relative;
-        text-decoration: none;
-        color: white;
-        font-size: 13px;
+/* logo in heder starts here */
+/* ---------------------------------------------------------- */
+.a-logo {
+  width: 11.5%;
+  height: 115.5%;
+  margin-left: -1%;
+}
+
+/* central menu in header starts here */
+/* ---------------------------------------------------------- */
+.central-menu {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 10%;
+  width: 100%;
+  line-height: 20px;
+}
+.central-menu li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.central-menu li a {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+/* ----------------------------------- */
+#central-menu-li1 {
+  right: 11%;
+}
+#central-menu-li2 {
+  right: 5.5%;
+}
+#central-menu-li3 {
+  right: 0%;
+}
+
+#central-menu-a1 {
+  position: relative;
+}
+
+#central-menu-a2 {
+  position: relative;
+  /* left: -34%; */
+}
+#central-menu-a3 {
+  position: relative;
+  /* left: -2%; */
+}
+
+/* right menu in header starts here */
+/* ---------------------------------------------------------- */
+.right-menu {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  align-items: center;
+}
+.right-menu li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.right-menu li a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+/* -----------------become host------------------- */
+#right-menu-background-become {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 24px;
+  width: 100%;
+  height: 38px;
+  right: 22%;
+}
+#right-menu-background-become:hover {
+  background: grey;
+}
+#right-menu-become {
+  position: relative;
+  left: 0%;
+}
+/* -----------------language------------------------ */
+#right-menu-background-language {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  right: 10%;
+  width: 28%;
+  height: 28px;
+  background: transparent;
+  border-radius: 24px;
+}
+#right-menu-background-language:hover {
+  background: grey;
+}
+
+#language {
+  position: relative;
+  width: 103%;
+  height: 19px;
+  filter: invert(100%);
+  right: 5%;
+  top: 1px;
+}
+/* ---------------user-------------------------- */
+.user {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+  height: 42px;
+  width: 64%;
+  border-radius: 42px;
+  left: 2%;
+}
+#menu {
+  position: relative;
+  width: 43%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+#user-icon {
+  position: relative;
+  width: 78%;
+  /* right: -6%;
+            bottom: -13%; */
+}
+
+/* main content starts here */
+/* ---------------------------------------------------------- */
+
+/* search bar in main content starts here */
+/* ---------------------------------------------------------- */
+
+.search-bar {
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 32px;
+  width: 77%;
+  height: 66px;
+  margin: 0 auto;
+  color: black;
+  align-items: center;
+}
+/* ---------------------------------- */
+.search-bar ul {
+}
+#search-bar-ul1 {
+  position: relative;
+  left: 1%;
+}
+#search-bar-ul2 {
+  position: relative;
+  left: -10%;
+  border-left: 1px solid;
+  border-left-style: groove;
+}
+#search-bar-ul3 {
+  position: relative;
+  left: -6%;
+  border-left: 1px solid;
+  border-left-style: groove;
+}
+#search-bar-ul4 {
+  position: relative;
+  left: 1%;
+  border-left: 1px solid;
+  border-left-style: groove;
+}
+.search-bar li {
+  position: relative;
+  list-style: none;
+  left: -7%;
+}
+/* ---------------------------------- */
+#search-bar-ul1-location {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul1-where {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* ---------------------------------- */
+#search-bar-ul2-check-in {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul2-add-dates1 {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* ---------------------------------- */
+#search-bar-ul3-check-out {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul3-add-dates2 {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* ---------------------------------- */
+#search-bar-ul4-guests {
+  font-size: 12px;
+  font-weight: bolder;
+}
+#search-bar-ul4-add-guests {
+  font-size: 14px;
+  opacity: 60%;
+}
+/* --------search-bar-magnifier------- */
+#search-bar-magnifier {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.5%;
+  height: 48px;
+  background-image: radial-gradient(
+    circle at center center,
+    rgb(255, 56, 92) 0%,
+    rgb(230, 30, 77) 27.5%,
+    rgb(227, 28, 95) 40%,
+    rgb(215, 4, 102) 57.5%,
+    rgb(189, 30, 89) 75%,
+    rgb(189, 30, 89) 100%
+  );
+  border-radius: 24px;
+  left: -1%;
+}
+#search-icon-image {
+  position: relative;
+  display: flex;
+  width: 33%;
+  height: 31%;
+  left: 1%;
+}
+#search-text {
+  /* font-size: 16px;
         font-weight: bold;
-        display: flex;
-        position: relative;
-        align-items: center;
-        align-content:center;
-        justify-content: center;
-    }
-    
-    #right-menu-background-become{
-        display: flex;
-        align-items: center;
-        align-content:center;
-        justify-content: center;
-        background: transparent;
-        border-radius: 24px;
-        width: 100%;
-        height: 38px;
-        right: 22%;
-    }
-    #right-menu-background-become:hover{
-        background: grey;
-    }
-    #right-menu-become{
-        position: relative;
-        left: 0%;
-    }
+        color: white; */
+}
 
-    #right-menu-background-language{
-        display: flex;
-        align-items: center;
-        align-content:center;
-        justify-content: center;
-        right: 10%;
-        width: 28%;
-        height: 28px;
-        background: transparent;
-        border-radius: 24px;
-    }
-    #right-menu-background-language:hover{
-        background: grey;
-    }
-    
-    #language{
-        position: relative;
-        width: 103%;
-        height: 19px;
-        filter: invert(100%);
-        right: 5%;
-        top: 1px;
-    }
-    
-    .user{
-        display: flex;
-        position: relative;
-        align-items: center;
-        align-content:center;
-        justify-content: center;
-        background-color: white;
-        height: 42px;
-        width: 64%;
-        border-radius: 42px;
-        left: 2%;
-    }
-    #menu{
-        position: relative;
-        width: 43%;
-        display: flex;
-        position: relative;
-        align-items: center;
-        align-content:center;
-        justify-content: center;
-    }
-    #user-icon {
-        position: relative;
-        width: 78%;
-        /* right: -6%;
-        bottom: -13%; */
-    }
+/* search bar in main content starts here */
+/* ---------------------------------------------------------- */
+
+/* red section in main content starts here */
+/* ---------------------------------------------------------- */
