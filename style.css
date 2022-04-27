@@ -54,6 +54,39 @@ body {
   align-content: center;
   justify-content: center;
 }
+
+.central-menu a:hover {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: rgb(190, 190, 190);
+}
+.central-menu li::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  right: 50%;
+  top: 139%;
+  background: #ffffff;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.central-menu li:hover::before {
+  left: 48%;
+  right: 48%;
+  top: 139%;
+  height: 2px;
+  border-radius: 20px;
+}
+
 .central-menu li a {
   display: flex;
   position: relative;
