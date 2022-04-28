@@ -457,6 +457,57 @@ background: -webkit-linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126)
 -webkit-text-fill-color: transparent;
 }
 
+/*bottom-img*/
+
+.bottom-img-part {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-img {
+  width: 100%;
+  justify-content: center;
+  height: 700px;
+  position: absolute;
+}
+
+.bottom-img-txt {
+  position: absolute;
+  left: 100px;
+}
+
+.question {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ask-superhost {
+  border: none;
+  width: 170px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: 450;
+  margin-top: 300px;
+  cursor: pointer;
+}
+.ask-superhost:hover{
+  background-color: rgb(201, 200, 200);
+}
+
+
+
+
 /*inspration*/
 .future-getaways {
   margin-left: 80px;
