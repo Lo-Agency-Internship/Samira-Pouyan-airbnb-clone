@@ -456,3 +456,115 @@ background: -webkit-linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126)
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+/*inspration*/
+.future-getaways {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.bottom-link div {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.future-getaways-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.bottom-link div button {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  height: 40px;
+}
+
+.bottom-link div button:hover {
+  background-color: rgb(241, 239, 239);
+  border-radius: 5px;
+}
+
+.loctaions-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.location-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.location-link-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-city {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.location-link-item span {
+  cursor: pointer;
+}
+
+.show-more {
+  text-decoration: underline;
+}
+/*footer*/
+.footer {
+  height: 450px;
+  background-color: rgb(241, 238, 238);
+  width: 100%;
+}
+.footer-item {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.location-link {
+  margin-top: 50px;
+}
+.location-link-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-link-item {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link-item span {
+  margin-top: 20px;
+}
+.footer-item span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+hr {
+  margin: 50px;
+}
+.copyright-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+.languange-currency {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.languange-currency div {
+  margin-right: 45px;
+}
+.languange-currency img {
+  width: 20px;
+  margin-right: 20px;
+}
