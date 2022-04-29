@@ -4,13 +4,13 @@ body {
   width: 87.33333333333%;
   height: 100vw;
   margin: 0 auto;
-  /* background: linear-gradient(
+  background: linear-gradient(
     to bottom,
     #000000 0%,
     #000000 937px,
     #ffffff 937px,
     #ffffff 100%
-  ); */
+  );
   font-family: Circular;
 }
 
