@@ -4,13 +4,13 @@ body {
   width: 87.33333333333%;
   height: 100vw;
   margin: 0 auto;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
     #000000 0%,
     #000000 937px,
     #ffffff 937px,
     #ffffff 100%
-  );
+  ); */
   font-family: Circular;
 }
 
@@ -449,15 +449,209 @@ body {
   height: 10%;
   font-size: 18px;
   font-weight: bold;
-  
 }
-#let-your-curiosity-button p{
-background: -webkit-linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126) 135.12%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+#let-your-curiosity-button p {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgb(111, 1, 156) 0%,
+    rgb(198, 1, 126) 135.12%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/*bottom-img*/
+
+/* Inspiration for your next trip in main content starts here */
+/* ---------------------------------------------------------- */
+
+#inspiration-next-trip {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  height: 41.5%;
+  top: 15.5%;
+  cursor: pointer;
+}
+/* -------------------------------------- */
+#inspiration-next-trip-text {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 22%;
+  bottom: 86.8%;
+  right: 31.3%;
+}
+#inspiration-next-trip-text-p {
+  position: absolute;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+/* ----------------------------------------- */
+#inspiration-next-trip-cities {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 64%;
+  top: 8.5%;
+}
+.cities {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10%;
+}
+/* -----------city divs---------- */
+
+#eureka {
+  height: 100%;
+  width: 23.4%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  left: 0%;
+  position: absolute;
+  background: rgb(204, 45, 74);
+}
+#kansas {
+  height: 100%;
+  width: 23.4%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  left: 25.5%;
+  position: absolute;
+  background: rgb(188, 26, 110);
+}
+#hermann {
+  height: 100%;
+  width: 23.4%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  left: 51%;
+  position: absolute;
+  background: rgb(222, 49, 81);
+}
+#saint {
+  height: 100%;
+  width: 23.4%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  left: 76.6%;
+  position: absolute;
+  background: rgb(217, 59, 48);
+}
+/* -----------city images------------ */
+.inspire-cities-img {
+  position: absolute;
+  width: 23.4%;
+  height: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  z-index: 1;
+}
+
+#city-eureka {
+  left: 0%;
+  width: 100%;
+}
+#city-kansas {
+  left: 0%;
+  width: 100%;
+}
+#city-hermann {
+  left: 0%;
+  width: 100%;
+}
+#city-saint {
+  left: 0%;
+  width: 100%;
+}
+/* -------bellow the image text----------- */
+
+.inspire-cities-upper-text-class {
+  position: absolute;
+  top: 40%;
+  color: white;
+  font-weight: bold;
+  font-size: 27px;
+  z-index: 1;
+}
+.inspire-cities-down-text-class {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 15px;
+  z-index: 1;
+}
+
+#city-eureka-upper-text {
+  left: 6.5%;
+  top: 48%;
+}
+#city-eureka-down-text {
+  left: 6.5%;
+  top: 63%;
+}
+
+#city-kansas-upper-text {
+  left: 6.5%;
+  top: 48%;
+}
+#city-kansas-down-text {
+  left: 6.5%;
+  top: 63%;
+}
+#city-hermann-upper-text {
+  left: 6.5%;
+  top: 55%;
+}
+#city-hermann-down-text {
+  left: 6.5%;
+  top: 67%;
+}
+#city-saint-upper-text {
+  left: 6.5%;
+  top: 55%;
+}
+#city-saint-down-text {
+  left: 6.5%;
+  top: 67%;
+}
+/* -------------test--temp--------------- */
+
+#test {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: gold;
+  width: auto;
+  height: 43.5%;
+  top: 150px;
+}
+
+/*----------------------bottom-img---------------------*/
+/* ---------------------------------------------------------- */
 
 .bottom-img-part {
   display: flex;
@@ -501,14 +695,13 @@ background: -webkit-linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126)
   margin-top: 300px;
   cursor: pointer;
 }
-.ask-superhost:hover{
+.ask-superhost:hover {
   background-color: rgb(201, 200, 200);
 }
 
+/*-----------------------inspration-------------------------*/
+/* ---------------------------------------------------------- */
 
-
-
-/*inspration*/
 .future-getaways {
   margin-left: 80px;
   margin-right: 80px;
@@ -568,7 +761,9 @@ background: -webkit-linear-gradient(90deg, rgb(111, 1, 156) 0%, rgb(198, 1, 126)
 .show-more {
   text-decoration: underline;
 }
-/*footer*/
+/*-------------------footer---------------------------*/
+/* ---------------------------------------------------------- */
+
 .footer {
   height: 450px;
   background-color: rgb(241, 238, 238);
