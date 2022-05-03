@@ -634,19 +634,159 @@ body {
   left: 6.5%;
   top: 67%;
 }
-/* -------------test--temp--------------- */
 
-#test {
+/* Discover Airbnb Experiences section in main content starts here */
+/* ---------------------------------------------------------- */
+
+#discover-experiences {
   display: flex;
   position: relative;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: start;
   flex-direction: column;
-  background-color: gold;
+  background-color: white;
   width: auto;
-  height: 43.5%;
-  top: 150px;
+  height: 44%;
+  top: 11.5%;
+  margin-bottom: 27%;
+}
+#discover-experiences-title{
+  display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: white;
+    width: auto;
+    height: 14%;
+} 
+#discover-experiences-title p {
+  font-size: 33px;
+  font-weight: bold;
+}
+#discover-experiences-content{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  top: 21.5%;
+}
+/* ------------------------------------------------------ */
+#discover-experiences-content-left{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 48.8%;
+  left: 4%;
+  height: 95%;
+}
+#discover-experiences-content-left p, button, img{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+#discover-experiences-content-left p{
+  display: flex;
+  right: 52%;
+  font-size: 250%;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  left: -1%;
+  top: 0%;
+  width: 47%;
+  font-weight: bold;
+  line-height: 113%;
+}
+#discover-experiences-content-left button{
+  right: 75%;
+  top: 29%;
+  width: 26%;
+  height: 9%;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+}
+#discover-experiences-content-left button:hover{
+  background-color: #EBEBEB;
+  }
+
+
+#discover-experiences-content-left img{
+  display: flex;
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  right: 8%;
+  border-radius: 12px;
+}
+/* ------------------------------------------- */
+#discover-experiences-content-right{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 48.8%;
+  right: 4%;
+  height: 95%;
+}
+  
+#discover-experiences-content-right p, button, img{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+#discover-experiences-content-right p{
+  display: flex;
+  font-size: 250%;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  left: 15.5%;
+  width: 47%;
+  font-weight: bold;
+  line-height: 113%;
+}
+#discover-experiences-content-right button{
+  right: 49%;
+  top: 29%;
+  width: 35.5%;
+  height: 9%;
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+}
+#discover-experiences-content-right button:hover{
+background-color: #EBEBEB;
+}
+
+
+#discover-experiences-content-right img{
+  display: flex;
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  left: 8%;
+  border-radius: 12px;
 }
 
 /*------QUESTIONS-------bottom-img---------------------*/
