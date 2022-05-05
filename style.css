@@ -789,6 +789,70 @@ background-color: #EBEBEB;
   left: 8%;
   border-radius: 12px;
 }
+/*------SHOP airbnb gift cards-----------------------------*/
+/* ---------------------------------------------------------- */
+
+#shop{
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  top: 0%;
+  height: 27.4%;
+}
+
+#shop-left{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  left: -6%;
+}
+
+#shop-left p{
+  position: relative;
+  color: black;
+  align-items: center;
+  left: 50%;
+}
+
+#shop-left button{
+  border-radius: 8px;
+  background-color: #222222;
+  color: white;
+  border: none;
+  width: 54%;
+  height: 148%;
+  align-items: center;
+  position: relative;
+  left: 104%;
+}
+/* --------------------------------------- */
+
+#shop-right{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  right: -16%;
+  height: 100%;
+}
+
+#shop-right img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 
 /*------QUESTIONS-------bottom-img---------------------*/
 /* ---------------------------------------------------------- */
