@@ -2,7 +2,8 @@ body {
   background-color: white;
   margin: 0;
   /* width: 87.33333333333333%; */
-  /* left: -30px; *//* right: 80px; */height: 100vw;
+  /* left: -30px; */ /* right: 80px; */
+  height: 100vw;
   margin: 0px 80px;
   background: linear-gradient(
     to bottom,
@@ -12,7 +13,7 @@ body {
     #ffffff 100%
   );
   font-family: Circular;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 /* header starts here */
@@ -25,7 +26,8 @@ body {
   color: white;
   width: 100%;
   height: 80px;
-/* overflow-x: hidden; */}
+  /* overflow-x: hidden; */
+}
 
 /* logo in heder starts here */
 /* ---------------------------------------------------------- */
@@ -219,20 +221,23 @@ body {
   align-items: center;
   align-content: center;
   justify-content: center;
-left: 5%;}
+  left: 5%;
+}
 #user-icon {
   position: relative;
   width: 78%;
   /* right: -6%;
             bottom: -13%; */
-left: -5%;}
+  left: -5%;
+}
 
 /* main content starts here */
 /* ---------------------------------------------------------- */
 .content {
   width: 100%;
   height: 100%;
-/* overflow-x: hidden; *//* background-color: white; */}
+  /* overflow-x: hidden; */ /* background-color: white; */
+}
 /* search bar in main content starts here */
 /* ---------------------------------------------------------- */
 
@@ -255,7 +260,8 @@ left: -5%;}
 #search-bar-ul1 {
   position: relative;
   left: 1.6%;
-/* margin-right: 13%; *//* padding-right: 49%; *//* word-spacing: 15px; */}
+  /* margin-right: 13%; */ /* padding-right: 49%; */ /* word-spacing: 15px; */
+}
 #search-bar-ul2 {
   position: relative;
   left: 15%;
@@ -278,43 +284,61 @@ left: -5%;}
   position: relative;
   list-style: none;
   left: -7%;
-/* top: 12%; *//* letter-spacing: 0.04em; */}
+  /* top: 12%; */ /* letter-spacing: 0.04em; */
+}
 /* ---------------------------------- */
 #search-bar-ul1-location {
   font-size: 11px;
   font-weight: bolder;
-/* top: 0%; */margin-bottom: 2%;/* word-spacing: 15px; */letter-spacing: 0.1em;}
+  /* top: 0%; */
+  margin-bottom: 2%; /* word-spacing: 15px; */
+  letter-spacing: 0.1em;
+}
 #search-bar-ul1-where {
   font-size: 14px;
   opacity: 60%;
-/* top: 0%; */}
+  /* top: 0%; */
+}
 /* ---------------------------------- */
 #search-bar-ul2-check-in {
   font-size: 11px;
   font-weight: 900;
-margin-bottom: 5%;left: -23%;letter-spacing: 0.1em;font-family: 'Circular-bold';}
+  margin-bottom: 5%;
+  left: -23%;
+  letter-spacing: 0.1em;
+  font-family: "Circular-bold";
+}
 #search-bar-ul2-add-dates1 {
   font-size: 14px;
   opacity: 60%;
-left: -23%;}
+  left: -23%;
+}
 /* ---------------------------------- */
 #search-bar-ul3-check-out {
   font-size: 11px;
   font-weight: bolder;
-margin-bottom: 5%;left: -23%;letter-spacing: 0.1em;}
+  margin-bottom: 5%;
+  left: -23%;
+  letter-spacing: 0.1em;
+}
 #search-bar-ul3-add-dates2 {
   font-size: 14px;
   opacity: 60%;
-left: -23%;}
+  left: -23%;
+}
 /* ---------------------------------- */
 #search-bar-ul4-guests {
   font-size: 11px;
   font-weight: bolder;
-margin-bottom: 5%;left: -23%;letter-spacing: 0.1em;}
+  margin-bottom: 5%;
+  left: -23%;
+  letter-spacing: 0.1em;
+}
 #search-bar-ul4-add-guests {
   font-size: 14px;
   opacity: 60%;
-left: -23%;}
+  left: -23%;
+}
 /* --------search-bar-magnifier------- */
 #search-bar-magnifier {
   position: relative;
@@ -379,7 +403,8 @@ left: -23%;}
   font-weight: bolder;
   color: white;
   line-height: 38%;
-/* top: 130%; */}
+  /* top: 130%; */
+}
 #LearnMore {
   border: 1px solid #ffffff;
   border-radius: 8px;
@@ -450,7 +475,8 @@ left: -23%;}
   height: 9.2%;
   font-size: 18px;
   font-weight: bold;
-border: none;}
+  border: none;
+}
 #let-your-curiosity-button p {
   background: -webkit-linear-gradient(
     90deg,
@@ -493,7 +519,8 @@ border: none;}
   font-weight: bold;
   font-size: 32px;
   color: black;
-letter-spacing: 0.006em;}
+  letter-spacing: 0.006em;
+}
 /* ----------------------------------------- */
 #inspiration-next-trip-cities {
   display: flex;
@@ -504,7 +531,7 @@ letter-spacing: 0.006em;}
   flex-direction: row;
   width: 100%;
   height: 66.8%;
-  top: 7.0%;
+  top: 7%;
 }
 .cities {
   width: 100%;
@@ -652,19 +679,19 @@ letter-spacing: 0.006em;}
   top: 11.2%;
   margin-bottom: 27%;
 }
-#discover-experiences-title{
+#discover-experiences-title {
   display: flex;
-    position: absolute;
-    justify-content: center;
-    background-color: white;
-    width: auto;
-    height: 14%;
-} 
+  position: absolute;
+  justify-content: center;
+  background-color: white;
+  width: auto;
+  height: 14%;
+}
 #discover-experiences-title p {
   font-size: 32.5px;
   font-weight: bold;
 }
-#discover-experiences-content{
+#discover-experiences-content {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -675,7 +702,7 @@ letter-spacing: 0.006em;}
   top: 20%;
 }
 /* ------------------------------------------------------ */
-#discover-experiences-content-left{
+#discover-experiences-content-left {
   display: flex;
   position: absolute;
   justify-content: center;
@@ -683,12 +710,14 @@ letter-spacing: 0.006em;}
   left: 4%;
   height: 95%;
 }
-#discover-experiences-content-left p, button, img{
+#discover-experiences-content-left p,
+button,
+img {
   display: flex;
   position: absolute;
   justify-content: center;
 }
-#discover-experiences-content-left p{
+#discover-experiences-content-left p {
   display: flex;
   right: 52%;
   font-size: 250%;
@@ -702,7 +731,7 @@ letter-spacing: 0.006em;}
   font-weight: bold;
   line-height: 113%;
 }
-#discover-experiences-content-left button{
+#discover-experiences-content-left button {
   right: 77.5%;
   top: 26.5%;
   width: 23.7%;
@@ -718,12 +747,11 @@ letter-spacing: 0.006em;}
   border-radius: 8px;
   border: none;
 }
-#discover-experiences-content-left button:hover{
-  background-color: #EBEBEB;
-  }
+#discover-experiences-content-left button:hover {
+  background-color: #ebebeb;
+}
 
-
-#discover-experiences-content-left img{
+#discover-experiences-content-left img {
   display: flex;
   position: absolute;
   color: white;
@@ -733,7 +761,7 @@ letter-spacing: 0.006em;}
   border-radius: 12px;
 }
 /* ------------------------------------------- */
-#discover-experiences-content-right{
+#discover-experiences-content-right {
   display: flex;
   position: absolute;
   justify-content: center;
@@ -741,13 +769,15 @@ letter-spacing: 0.006em;}
   right: 4%;
   height: 95%;
 }
-  
-#discover-experiences-content-right p, button, img{
+
+#discover-experiences-content-right p,
+button,
+img {
   display: flex;
   position: absolute;
   justify-content: center;
 }
-#discover-experiences-content-right p{
+#discover-experiences-content-right p {
   display: flex;
   font-size: 250%;
   color: white;
@@ -759,7 +789,7 @@ letter-spacing: 0.006em;}
   font-weight: bold;
   line-height: 113%;
 }
-#discover-experiences-content-right button{
+#discover-experiences-content-right button {
   right: 52.8%;
   top: 26.4%;
   width: 32.3%;
@@ -775,12 +805,11 @@ letter-spacing: 0.006em;}
   border-radius: 8px;
   border: none;
 }
-#discover-experiences-content-right button:hover{
-background-color: #EBEBEB;
+#discover-experiences-content-right button:hover {
+  background-color: #ebebeb;
 }
 
-
-#discover-experiences-content-right img{
+#discover-experiences-content-right img {
   display: flex;
   position: absolute;
   color: white;
@@ -792,7 +821,7 @@ background-color: #EBEBEB;
 /*------SHOP airbnb gift cards-----------------------------*/
 /* ---------------------------------------------------------- */
 
-#shop{
+#shop {
   display: flex;
   position: relative;
   align-items: center;
@@ -801,10 +830,11 @@ background-color: #EBEBEB;
   flex-direction: row;
   width: 100%;
   top: 0%;
-  height: 27.4%;
+  height: 33.4%;
+  background-color: white;
 }
 
-#shop-left{
+#shop-left {
   display: flex;
   position: absolute;
   align-items: center;
@@ -812,47 +842,59 @@ background-color: #EBEBEB;
   justify-content: center;
   flex-direction: column;
   width: 20%;
-  left: -6%;
+  height: 100%;
+  left: 0%;
+  top: 0;
 }
 
-#shop-left p{
-  position: relative;
+#shop-left p {
+  position: absolute;
   color: black;
   align-items: center;
-  left: 50%;
+  top: -5.3%;
+  left: 0%;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 114%;
+  letter-spacing: 0.01rem;
 }
 
-#shop-left button{
+#shop-left button {
   border-radius: 8px;
   background-color: #222222;
   color: white;
   border: none;
-  width: 54%;
-  height: 148%;
+  width: 55%;
+  height: 10.8%;
+  top: 29%;
   align-items: center;
-  position: relative;
-  left: 104%;
+  position: absolute;
+  left: 0%;
+  font-weight: 600;
+  font-size: 16px;
 }
 /* --------------------------------------- */
 
-#shop-right{
+#shop-right {
   display: flex;
   position: absolute;
   align-items: center;
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  width: 80%;
-  right: -16%;
+  width: 61.9%;
+  right: 0%;
   height: 100%;
+  top: 3%;
 }
 
-#shop-right img{
+#shop-right img {
   height: 100%;
-  width: 100%;
+  width: 120%;
   position: absolute;
+  left: -9.32%;
+  top: 0.5%; /* overflow-x: hidden; */
 }
-
 
 /*------QUESTIONS-------bottom-img---------------------*/
 /* ---------------------------------------------------------- */
@@ -867,7 +909,8 @@ background-color: #EBEBEB;
   text-align: center;
   position: relative;
   right: 7.4%;
-/* box-sizing: border-box; *//* overflow-x: hidden; */}
+  /* box-sizing: border-box; */ /* overflow-x: hidden; */
+}
 
 .bottom-img {
   width: 100%;
@@ -936,8 +979,8 @@ background-color: #EBEBEB;
   width: 100%;
   height: 10.5%;
   border-bottom: 1px solid rgb(233, 230, 230);
- }
-.bottom-link-item{
+}
+.bottom-link-item {
   display: flex;
   position: absolute;
   width: 100%;
@@ -967,7 +1010,7 @@ background-color: #EBEBEB;
   border-radius: 8px;
 }
 
-#bottom-link-item-1:hover::before{
+#bottom-link-item-1:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -983,9 +1026,9 @@ background-color: #EBEBEB;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;  
+  transition-timing-function: ease-out;
 }
-#bottom-link-item-2:hover::before{
+#bottom-link-item-2:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1001,9 +1044,9 @@ background-color: #EBEBEB;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;  
+  transition-timing-function: ease-out;
 }
-#bottom-link-item-3:hover::before{
+#bottom-link-item-3:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1019,9 +1062,9 @@ background-color: #EBEBEB;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;  
+  transition-timing-function: ease-out;
 }
-#bottom-link-item-4:hover::before{
+#bottom-link-item-4:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1037,9 +1080,9 @@ background-color: #EBEBEB;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;  
+  transition-timing-function: ease-out;
 }
-#bottom-link-item-5:hover::before{
+#bottom-link-item-5:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1055,9 +1098,9 @@ background-color: #EBEBEB;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;  
+  transition-timing-function: ease-out;
 }
-#bottom-link-item-6:hover::before{
+#bottom-link-item-6:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1073,12 +1116,10 @@ background-color: #EBEBEB;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;  
+  transition-timing-function: ease-out;
 }
 
-
-
-  /* ------------------------------------------ */
+/* ------------------------------------------ */
 .loctaions-nav {
   display: flex;
   position: absolute;
@@ -1086,7 +1127,7 @@ background-color: #EBEBEB;
   top: 30%;
   width: 101.7%;
 }
-.loctaions-nav span{
+.loctaions-nav span {
   font-size: 14px;
   line-height: 18px;
 }
@@ -1118,7 +1159,7 @@ background-color: #EBEBEB;
 }
 /*-------------------footer---------------------------*/
 /* ---------------------------------------------------------- */
-footer{
+footer {
   background-color: rgb(241, 238, 238);
   display: flex;
   flex-direction: column;
