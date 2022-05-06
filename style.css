@@ -5,13 +5,14 @@ body {
   /* left: -30px; */ /* right: 80px; */
   height: 100vw;
   margin: 0px 80px;
-  /* background: linear-gradient(
+  background: linear-gradient(
     to bottom,
     #000000 0px,
-    #000000 937px,
+    #000000 984px,
     #ffffff 937px,
     #ffffff 100%
-  ); */
+  );
+  background-repeat: no-repeat;
   font-family: Circular;
   overflow-x: hidden;
   padding-left: 0px;
@@ -387,7 +388,7 @@ body {
 
 #redSection-help-refugees {
   background-color: #ff385c;
-  height: 27.4%;
+  height: 27.1%;
   border-radius: 12px;
   display: flex;
   position: relative;
@@ -403,7 +404,7 @@ body {
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  bottom: 4%;
+  bottom: 3.2%;
 }
 #help {
   padding-left: 0%;
@@ -440,7 +441,7 @@ body {
   width: auto;
   /* background-color: navajowhite; */
   height: 43.65%;
-  top: 6.8%;
+  top: 6.9%;
 }
 
 #let-your-curiosity-div {
@@ -471,9 +472,9 @@ body {
   justify-content: center;
   color: white;
   top: 61.8%;
-  font-weight: bold;
-  font-size: 233%;
-  letter-spacing: 0.005rem;
+  font-weight: 600;
+  font-family: 'Circular-light';font-size: 233%;
+  /* letter-spacing: 0.01rem; */
 }
 #let-your-curiosity-button {
   display: flex;
@@ -537,7 +538,7 @@ body {
   color: black;
   letter-spacing: 0.006em;
   left: 32.8%;
-  top: 12px;
+  top: 13.5px;
 }
 /* ----------------------------------------- */
 #inspiration-next-trip-cities {
@@ -745,17 +746,17 @@ img {
   z-index: 1;
   position: absolute;
   justify-content: center;
-  left: -1%;
+  left: -1.2%;
   top: 0%;
   width: 47%;
   font-weight: bold;
   line-height: 113%;
-  letter-spacing: 0.001rem;
+  letter-spacing: 0.006rem;
 }
 #discover-experiences-content-left button {
   font-family: Circular-medium;
   right: 77.2%;
-  top: 26.5%;
+  top: 26.7%;
   width: 24%;
   height: 8.4%;
   font-size: 16px;
@@ -777,8 +778,8 @@ img {
   display: flex;
   position: absolute;
   color: white;
-  width: 100%;
-  height: 100%;
+  width: 100.2%;
+  height: 100.2%;
   right: 8%;
   border-radius: 12px;
 }
@@ -814,9 +815,9 @@ img {
 }
 #discover-experiences-content-right button {
   font-family: Circular-medium;
-  right: 52.4%;
-  top: 26.6%;
-  width: 32.7%;
+  right: 52.2%;
+  top: 26.8%;
+  width: 32.9%;
   height: 8.4%;
   font-size: 16px;
   /* font-weight: 600; */
@@ -837,8 +838,8 @@ img {
   display: flex;
   position: absolute;
   color: white;
-  width: 100%;
-  height: 100%;
+  width: 100.2%;
+  height: 100.2%;
   left: 8%;
   border-radius: 12px;
 }
@@ -927,7 +928,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 113.5%;
-  height: 50%;
+  height: 49.3%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -946,24 +947,24 @@ img {
 
 .bottom-img-txt {
   position: absolute;
-  left: 6.2%;
-  top: 11.4%;
+  left: 6.0%;
+  top: 11.9%;
   text-align: left;
 }
 
 .question {
-  font-size: 72px;
+  font-size: 73px;
   font-weight: 600;
-  color: white;
-  margin-top: 0px;
+  font-family: 'Circular-light';color: white;
+  margin-top: -1px;
   margin-bottom: 0px;
-  line-height: 78px;
+  line-height: 79px;
   letter-spacing: 0.01rem;
 }
 
 .ask-superhost {
   border: none;
-  width: 50.2%;
+  width: 49.7%;
   height: 20.6%;
   position: absolute;
   background-color: white;
@@ -976,8 +977,8 @@ img {
   cursor: pointer;
   align-items: center;
   font-weight: bold;
-  top: 123%;
-  left: -1%;
+  top: 117%;
+  left: 0%;
   letter-spacing: 0.01rem;
 }
 .ask-superhost:hover {
@@ -994,7 +995,7 @@ img {
   width: 100%;
   height: 30.5%;
   position: relative;
-  top: 2%;
+  top: 0.6%;
 }
 
 .future-getaways-title {
@@ -1204,7 +1205,7 @@ footer {
   width: 113.2%;
   height: 28.5%;
   position: relative;
-  top: 0%;
+  top: -1.3%;
   left: -6.547%;
 }
 
