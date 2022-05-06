@@ -996,14 +996,14 @@ img {
   height: 30.5%;
   position: relative;
   top: 0.6%;
-}
+left: 0.2%;}
 
 .future-getaways-title {
   position: absolute;
   font-family: Circular;
   font-weight: bold;
-  font-size: 22px;
-  top: 3%;
+  font-size: 22.2px;
+  top: 3.1%;
   letter-spacing: 0.01rem;
 }
 
@@ -1160,8 +1160,8 @@ img {
   display: flex;
   position: absolute;
   justify-content: space-around;
-  top: 24.5%;
-  width: 101.7%;
+  top: 24.6%;
+  left: -2px;width: 101.7%;
 }
 .loctaions-nav span {
   font-size: 14px;
@@ -1193,8 +1193,8 @@ img {
 
 .show-more {
   text-decoration: underline;
-  font-weight: bold;
-}
+  /* font-weight: bold; */
+font-family: 'Circular-medium';}
 /*-------------------footer---------------------------*/
 /* ---------------------------------------------------------- */
 footer {
@@ -1206,7 +1206,7 @@ footer {
   height: 28.5%;
   position: relative;
   top: -1.3%;
-  left: -6.547%;
+  left: -6.40%;
 }
 
 #footer-top {
@@ -1215,7 +1215,7 @@ footer {
   flex-direction: row;
   width: 100%;
   height: 80%;
-  top: -2.5%;
+  top: -2.3%;
   left: 0.1%;
 }
 #footer-top::before {
@@ -1269,7 +1269,7 @@ footer {
   top: 10%;
 }
 .ft2 {
-  margin-bottom: 9%;
+  margin-bottom: 8.5%;
 }
 .ft2:hover {
   text-decoration: underline;
@@ -1281,7 +1281,7 @@ footer {
   top: 10%;
 }
 .ft3 {
-  margin-bottom: 11%;
+  margin-bottom: 10.5%;
 }
 .ft3:hover {
  text-decoration: underline;
