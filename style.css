@@ -34,9 +34,9 @@ body {
 /* logo in heder starts here */
 /* ---------------------------------------------------------- */
 .a-logo {
-  width: 9.5%;
-  /* height: 115.5%; */
-  margin-left: -1%;
+  position: absolute;width: 9.4%;
+  height: 12.5%;
+  left: 6%;margin-left: -1%;
 }
 .a-logo:hover {
   cursor: pointer;
@@ -77,7 +77,7 @@ body {
   left: 50%;
   right: 50%;
   top: 139%;
-  background: #ffffff;
+  background: #767676;
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -109,10 +109,10 @@ body {
   right: 11%;
 }
 #central-menu-li2 {
-  right: 6.5%;
+  right: 5.1%;
 }
 #central-menu-li3 {
-  right: 2%;
+  right: -0.9%;
 }
 
 #central-menu-a1 {
@@ -121,11 +121,11 @@ body {
 
 #central-menu-a2 {
   position: relative;
-  left: 9%;
+  left: 0%;
 }
 #central-menu-a3 {
   position: relative;
-  left: 11%;
+  left: 0%;
 }
 
 /* right menu in header starts here */
@@ -179,7 +179,7 @@ body {
 }
 #right-menu-become {
   position: relative;
-  left: 0%;
+  left: 0.5%;
   font-family: "Circular-medium";
   font-weight: 100;
   width: 103px;
@@ -207,7 +207,7 @@ body {
   width: 103%;
   height: 19px;
   filter: invert(100%);
-  right: 2%;
+  right: -1.4%;
   top: 0px;
 }
 /* ---------------user-------------------------- */
@@ -270,12 +270,13 @@ body {
   position: absolute;
   left: 0%;
   height: 100%;
-  width: 32%;
+  width: 31.8%;
 }
 
 #search-bar-1:hover {
   background-color: #ebebeb;
   border-radius: 32px;
+  cursor: pointer;
 }
 
 #search-bar-ul1 {
@@ -338,8 +339,8 @@ body {
   border-left-style: groove;
 }
 #search-bar-ul3:hover {
-  border: none;
-}
+  
+border-left: 1px solid white;}
 .border-disapear {
   border: none;
 }
@@ -386,14 +387,14 @@ body {
   top: -3%;
   /* margin-bottom: 2%; word-spacing: 15px; */
   letter-spacing: 0.1em;
-  left: 9.5%;
+  left: 9.6%;
 }
 #search-bar-ul1-where {
   display: flex;
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 9.4%;
+  left: 9.5%;
   top: 49%;
 }
 /* ---------------------------------- */
@@ -406,7 +407,7 @@ body {
   /* margin-bottom: 5%; */
   left: 13%;
   top: -3%;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   font-family: "Circular-bold";
 }
 #search-bar-ul2-add-dates1 {
@@ -414,7 +415,7 @@ body {
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 13%;
+  left: 13.2%;
   top: 55%;
 }
 /* ---------------------------------- */
@@ -425,7 +426,7 @@ body {
   font-weight: bolder;
   /* margin-bottom: 5%; */
   top: -3%;
-  left: 13%;
+  left: 13.3%;
   font-family: "Circular-bold";
   letter-spacing: 0.03em;
 }
@@ -434,7 +435,7 @@ body {
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 13%;
+  left: 13.3%;
   top: 56%;
 }
 /* ---------------------------------- */
@@ -444,7 +445,7 @@ body {
   font-size: 12.5px;
   font-weight: bolder;
   /* margin-bottom: 5%; */
-  left: 11%;
+  left: 11.1%;
   top: -3%;
   font-family: "Circular-bold";
   letter-spacing: 0.01em;
@@ -454,7 +455,7 @@ body {
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 11%;
+  left: 11.1%;
   top: 57%;
 }
 /* --------search-bar-magnifier------- */
@@ -463,11 +464,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5.75%;
+  width: 5.65%;
   height: 48px;
   background-color: #ff385c;
   border-radius: 24px;
-  left: 93.2%;
+  left: 93.3%;
 }
 #search-bar-magnifier:hover {
   cursor: pointer;
@@ -485,9 +486,9 @@ body {
 #search-icon-image {
   position: absolute;
   display: flex;
-  width: 34%;
+  width: 33.6%;
   height: 33%;
-  left: 34%;
+  left: 33%;
 }
 #search-text {
   /* font-size: 16px;
@@ -500,14 +501,14 @@ body {
 
 #redSection-help-refugees {
   background-color: #ff385c;
-  height: 27.1%;
+  height: 27.0%;
   border-radius: 12px;
   display: flex;
   position: relative;
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin-top: 6.3%;
+  margin-top: 6.4%;
 }
 #redSection-help-refugees-div {
   display: flex;
@@ -526,14 +527,14 @@ body {
   font-weight: bolder;
   color: white;
   line-height: 38%;
-  letter-spacing: 0.01rem;/* top: 130%; */
+  letter-spacing: 0.01rem; /* top: 130%; */
 }
 #LearnMore {
   border: 1px solid #ffffff;
   border-radius: 8px;
   color: white;
   font-size: 14px;
-  padding: 9.0px 16.7px;
+  padding: 9px 16.7px;
   text-decoration: none;
   /* font-weight: bold; */
   font-family: "Circular-medium";
@@ -553,7 +554,7 @@ body {
   width: auto;
   /* background-color: navajowhite; */
   height: 43.65%;
-  top: 6.9%;
+  top: 6.95%;
 }
 
 #let-your-curiosity-div {
@@ -588,7 +589,8 @@ body {
   font-family: "Circular-light";
   font-size: 232%;
   letter-spacing: 0.01rem;
-left: 26.3%;}
+  left: 26.3%;
+}
 #let-your-curiosity-button {
   display: flex;
   position: absolute;
@@ -678,7 +680,7 @@ left: 26.3%;}
 
 #eureka {
   height: 100%;
-  width: 23.4%;
+  width: 23.45%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 12px;
@@ -835,8 +837,8 @@ left: 26.3%;}
   justify-content: center;
   background-color: white;
   width: 100%;
-  height: 98.5%;
-  top: 19.5%;
+  height: 98.45%;
+  top: 19.45%;
 }
 /* ------------------------------------------------------ */
 #discover-experiences-content-left {
@@ -872,9 +874,9 @@ img {
 #discover-experiences-content-left button {
   font-family: Circular-medium;
   right: 77.2%;
-  top: 26.7%;
-  width: 24%;
-  height: 8.4%;
+  top: 26.8%;
+  width: 24.1%;
+  height: 8.3%;
   font-size: 16px;
   /* font-weight: 600; */
   color: black;
@@ -996,9 +998,9 @@ img {
   align-items: center;
   top: -5.3%;
   left: 0%;
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 114%;
+  font-size: 40.2px;
+  font-weight: 600;
+  line-height: 115%;
   letter-spacing: 0.01rem;
 }
 
@@ -1007,15 +1009,15 @@ img {
   background-color: #222222;
   color: white;
   border: none;
-  width: 56%;
-  height: 10.8%;
-  top: 29.5%;
-  align-items: center;
+  width: 55.75%;
+  height: 10.75%;
+  top: 29.45%;
+  align-items: baseline;
   position: absolute;
   left: 0%;
-  font-weight: 600;
+  font-family: 'Circular-medium';font-weight: 100;
   font-size: 16px;
-}
+line-height: 290%;}
 #shop-left button:hover {
   cursor: pointer;
   background-color: #000000;
@@ -1036,11 +1038,11 @@ img {
 }
 
 #shop-right img {
-  height: 100%;
-  width: 120.6%;
+  height: 99.8%;
+  width: 120.25%;
   position: absolute;
-  left: -9.75%;
-  top: 0.7%;
+  left: -9.35%;
+  top: 0.6%;
 }
 
 /*------QUESTIONS-------bottom-img---------------------*/
@@ -1056,52 +1058,52 @@ img {
   text-align: center;
   position: relative;
   right: 6.9%;
-  top: -0.2%;
+  top: -0.15%;
 }
 
 .bottom-img {
   width: 100%;
   justify-content: center;
-  height: 100%;
+  height: 100.20%;
   position: absolute;
-  right: -0.03%;
+  right: -0.1%;
 }
 
 .bottom-img-txt {
   position: absolute;
-  left: 6%;
+  left: 6.15%;
   top: 11.9%;
   text-align: left;
 }
 
 .question {
-  font-size: 73px;
+  font-size: 72.5px;
   font-weight: 600;
   font-family: "Circular-light";
   color: white;
   margin-top: -1px;
   margin-bottom: 0px;
-  line-height: 79px;
+  line-height: 78px;
   letter-spacing: 0.01rem;
 }
 
 .ask-superhost {
   border: none;
-  width: 49.7%;
-  height: 20.6%;
+  width: 49.8%;
+  height: 20.82%;
   position: absolute;
   background-color: white;
   border-radius: 8px;
   color: black;
   font-family: Circular;
-  font-size: 16px;
+  font-size: 15.7px;
   font-weight: 500;
   margin-top: 56%;
   cursor: pointer;
-  align-items: center;
-  font-weight: bold;
-  top: 117%;
-  left: 0%;
+  align-items: end;
+  line-height: 293%;font-family: 'Circular-medium';font-weight: 100;
+  top: 119.5%;
+  left: -0.3%;
   letter-spacing: 0.01rem;
 }
 .ask-superhost:hover {
@@ -1127,13 +1129,15 @@ img {
   font-family: Circular;
   font-weight: bold;
   font-size: 22.2px;
-  top: 3.1%;
+  top: 3.3%;
+  left: -0.2%;
   letter-spacing: 0.01rem;
 }
 
 .bottom-link {
+  display: flex;
   position: absolute;
-  top: 21.5%;
+  top: 21.9%;
   left: -0.5%;
   width: 100%;
   height: 7.5%;
@@ -1146,11 +1150,14 @@ img {
   left: -0.5%;
   height: 90%;
   align-items: center;
+  top: -27%;
 }
 .bottom-link button {
+  display: flex;
+  position: absolute;
   border-style: none;
   background: white;
-  font-size: 14px;
+  font-size: 14.3px;
   font-family: Circular;
   font-weight: bold;
   color: #7c7c7c;
@@ -1158,25 +1165,31 @@ img {
   border: none;
   background-color: white;
   margin-right: 0.9%;
-  padding: 0% 0.9%;
-  height: 107%;
+  padding: 1.5% 0.9%;
+  height: 116%;
+  align-items: center;
   position: relative;
-  bottom: 2px;
-  /* letter-spacing: 0.01rem; */
 }
-
-.bottom-link div button:hover {
-  background-color: rgb(247, 247, 247);
+.f-g-btn:hover {
+  background-color: rgb(246, 246, 246);
   border-radius: 8px;
+  z-index: 1;
 }
 
+#bottom-link-item-1 {
+  display: flex;
+  position: absolute;
+  left: 0%;
+  top: -12%;
+  align-items: center;
+}
 #bottom-link-item-1:hover::before {
   content: "";
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   left: 4%;
   right: 4%;
-  bottom: 5%;
+  bottom: -11%;
   background: #000000;
   height: 2px;
   -webkit-transform: translateY(4px);
@@ -1187,6 +1200,12 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+}
+#bottom-link-item-2 {
+  display: flex;
+  position: absolute;
+  left: 18.7%;
+  top: -12%;
 }
 #bottom-link-item-2:hover::before {
   content: "";
@@ -1194,7 +1213,7 @@ img {
   z-index: 1;
   left: 4%;
   right: 4%;
-  bottom: 5%;
+  bottom: -11%;
   background: #000000;
   height: 2px;
   -webkit-transform: translateY(4px);
@@ -1205,6 +1224,12 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+}
+#bottom-link-item-3 {
+  display: flex;
+  position: absolute;
+  left: 40.5%;
+  top: -12%;
 }
 #bottom-link-item-3:hover::before {
   content: "";
@@ -1212,7 +1237,7 @@ img {
   z-index: 1;
   left: 4%;
   right: 4%;
-  bottom: 5%;
+  bottom: -11%;
   background: #000000;
   height: 2px;
   -webkit-transform: translateY(4px);
@@ -1223,6 +1248,12 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+}
+#bottom-link-item-4 {
+  display: flex;
+  position: absolute;
+  left: 51.8%;
+  top: -12%;
 }
 #bottom-link-item-4:hover::before {
   content: "";
@@ -1230,7 +1261,7 @@ img {
   z-index: 1;
   left: 4%;
   right: 4%;
-  bottom: 5%;
+  bottom: -11%;
   background: #000000;
   height: 2px;
   -webkit-transform: translateY(4px);
@@ -1241,6 +1272,12 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+}
+#bottom-link-item-5 {
+  display: flex;
+  position: absolute;
+  left: 64.5%;
+  top: -12%;
 }
 #bottom-link-item-5:hover::before {
   content: "";
@@ -1248,7 +1285,7 @@ img {
   z-index: 1;
   left: 4%;
   right: 4%;
-  bottom: 5%;
+  bottom: -11%;
   background: #000000;
   height: 2px;
   -webkit-transform: translateY(4px);
@@ -1259,6 +1296,12 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+}
+#bottom-link-item-6 {
+  display: flex;
+  position: absolute;
+  left: 78%;
+  top: -12%;
 }
 #bottom-link-item-6:hover::before {
   content: "";
@@ -1266,7 +1309,7 @@ img {
   z-index: 1;
   left: 4%;
   right: 4%;
-  bottom: 5%;
+  bottom: -11%;
   background: #000000;
   height: 2px;
   -webkit-transform: translateY(4px);
@@ -1279,79 +1322,221 @@ img {
   transition-timing-function: ease-out;
 }
 
-/* ------------------------------------------ */
+/* -----------------locations------------------ */
 .loctaions-nav {
   display: flex;
-  /* position: absolute;
-  justify-content: space-around;
-  top: 24.7%;
-  left: -2px;
-  width: 101.7%;
-  height: 67%; */
-}
+  position: absolute;
+  width: 100%;
+  height: 61%;
+top: 31%;}
 /* ------------------------------ */
 .location-link {
   flex: 10;
   display: flex;
   position: absolute;
-  /* flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 15%; */
 }
+
 #location-link-1 {
   display: flex;
   position: absolute;
-  /* left: 0%; */
-}
+  width: 20%;
+  height: 100%;
+  left: -0.2%;
+top: 0%;}
+
 #location-link-2 {
   display: flex;
   position: absolute;
-  /* left: 24.8%; */
+  left: 18.4%;
+  width: 20%;
+  height: 100%;
+  top: 0%;
 }
+
 #location-link-3 {
   display: flex;
   position: absolute;
-  /* left: 49.8%; */
+  left: 43.8%;
+  width: 20%;
+  height: 100%;
+  top: 0%;
 }
+
 #location-link-4 {
   display: flex;
   position: absolute;
-  /* left: 74.8%; */
+  width: 20%;
+  height: 100%;
+  left: 68.8%;
+  top: 0%;
 }
 /* -------------------------------- */
-.location-link-item {
+.location-link-item-1-1 {
   display: flex;
   position: absolute;
-  /* flex-direction: column;
-  height: 15%;
-  width: 100%;
-  justify-content: space-between; */
+  width: 20%;
+  height: 20%;
+  top: -0.3%;
+  left: -14.3%; /* font-size: 13px; */
+}
+.location-link-item-1-1:hover {
+  cursor: pointer;
+}
+
+.location-link-item-1-2 {
+  display: flex;
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  top: 24.2%;
+  left: -14.5%;
+}
+.location-link-item-1-2:hover {
+  cursor: pointer;
+}
+
+.location-link-item-1-3 {
+  display: flex;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 48.5%;
+  left: -14.5%;
+}
+.location-link-item-1-3:hover {
+  cursor: pointer;
+}
+/* --------------------------------- */
+.location-link-item-2-1 {
+  display: flex;
+  position: absolute;
+  width: 38%;
+  height: 20%;
+  top: -0.3%;
+}
+.location-link-item-2-1:hover {
+  cursor: pointer;
+}
+
+.location-link-item-2-2 {
+  display: flex;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 24.2%;
+}
+.location-link-item-2-2:hover {
+  cursor: pointer;
+}
+
+.location-link-item-2-3 {
+  display: flex;
+  position: absolute;
+  width: 23%;
+  height: 20%;
+  top: 48.5%;
+}
+.location-link-item-2-3:hover {
+  cursor: pointer;
+}
+/* --------------------------------- */
+.location-link-item-3-1 {
+  display: flex;
+  position: absolute;
+  width: 38%;
+  height: 20%;
+  top: -0.3%;
+}
+.location-link-item-3-1:hover {
+  cursor: pointer;
+}
+
+.location-link-item-3-2 {
+  display: flex;
+  position: absolute;
+  width: 25%;
+  height: 20%;
+  top: 24.2%;
+}
+.location-link-item-3-2:hover {
+  cursor: pointer;
+}
+
+.location-link-item-3-3 {
+  display: flex;
+  position: absolute;
+  width: 27%;
+  height: 20%;
+  top: 48.5%;
+}
+.location-link-item-3-3:hover {
+  cursor: pointer;
+}
+/* --------------------------------- */
+.location-link-item-4-1 {
+  display: flex;
+  position: absolute;
+  width: 35%;
+  height: 20%;
+  top: -0.3%;
+  left: 15.5%;
+}
+.location-link-item-4-1:hover {
+ cursor: pointer;
+}
+.location-link-item-4-2 {
+  display: flex;
+  position: absolute;
+  width: 234%;
+  height: 20%;
+  top: 24.2%;
+  right: -164%;
+}
+.location-link-item-4-2:hover {
+  cursor: pointer;
+ }
+.location-link-item-4-3 {
+  display: flex;
+  position: absolute;
+  width: 51%;
+  height: 20%;
+  top: 48.5%;
+  left: 15.5%;
+  list-style: none;
+}
+.location-link-item-4-3:hover {
+  cursor: pointer;
 }
 /* --------------------------------- */
 .location-area {
   display: flex;
   position: absolute;
-  /* width: 100%;
-  height: 50%;
-  top: 40%; */
+  /* width: 20%; */
+  /* height: 20%; */
+  top: 21%;
+  font-size: 14px;
+}
+.location-link-item:hover{
+  cursor: pointer;
 }
 .location-city {
   display: flex;
   position: absolute;
   color: gray;
-  /* width: 100%;
-  height: 50%;
-  top: 70%; */
+  width: 20%;
+  height: 20%;
+  top: 61.2%;
+  font-size: 14px;
 }
-/* -------------------------------------- */
 
+/* -------------------------------------- */
 
 .show-more {
   text-decoration: underline;
   /* font-weight: bold; */
   font-family: "Circular-medium";
-}
+  font-size: 13.9px; /* left: -8%; */
+position: absolute;top: 24%;}
 
 /*-------------------footer---------------------------*/
 /* ---------------------------------------------------------- */
@@ -1373,7 +1558,7 @@ footer {
   flex-direction: row;
   width: 100%;
   height: 80%;
-  top: -2.3%;
+  top: -2.1%;
   left: 0.1%;
 }
 #footer-top::before {
@@ -1382,8 +1567,8 @@ footer {
   z-index: 1;
   left: 6%;
   right: 6%;
-  bottom: -20px;
-  background: #c9c7c7;
+  bottom: -19px;
+  background: #e3e1e1;
   height: 1px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -1399,7 +1584,7 @@ footer {
 }
 .footer-top-header {
   font-weight: 600;
-  letter-spacing: 0.015rem;
+  letter-spacing: 0.02rem;
   margin-bottom: 8%;
 }
 #fth3 {
@@ -1422,7 +1607,7 @@ footer {
 }
 #footer-top-2 {
   position: absolute;
-  left: 25.3%;
+  left: 25.2%;
   top: 10%;
 }
 .ft2 {
@@ -1434,7 +1619,7 @@ footer {
 
 #footer-top-3 {
   position: absolute;
-  left: 47.8%;
+  left: 47.7%;
   top: 10%;
 }
 .ft3 {
@@ -1446,8 +1631,8 @@ footer {
 
 #footer-top-4 {
   position: absolute;
-  left: 70.3%;
-  top: 10%;
+  left: 70.25%;
+  top: 10.15%;
 }
 .ft4 {
   margin-bottom: 11%;
@@ -1508,7 +1693,7 @@ a {
 #fb3 {
   display: flex;
   position: relative;
-  left: 1%;
+  left: 0.8%;
 }
 #fb3:hover {
   text-decoration: underline;
@@ -1521,7 +1706,7 @@ a {
 #fb5 {
   display: flex;
   position: relative;
-  left: 1%;
+  left: 0.7%;
 }
 #fb5:hover {
   text-decoration: underline;
@@ -1529,12 +1714,12 @@ a {
 #fb6 {
   display: flex;
   position: relative;
-  left: 1%;
+  left: 0.7%;
 }
 #fb7 {
   display: flex;
   position: relative;
-  left: 1%;
+  left: 0.6%;
 }
 #fb7:hover {
   text-decoration: underline;
@@ -1581,7 +1766,8 @@ a:hover {
   font-weight: 600;
   font-size: 14px;
   top: 54%;
-  left: 47%;
+  left: 46.8%;
+  letter-spacing: 0.01rem;
 }
 #eur-sign {
   display: flex;
@@ -1602,30 +1788,30 @@ a:hover {
   left: 67.6%;
   width: 28px;
   font-weight: 600;
-  top: 52.5%;
+  top: 53.5%;
   font-size: 14px;
 }
 #facebook {
   display: flex;
   position: absolute;
-  width: 17px;
-  left: 81.3%;
-  height: 17px;
+  width: 18px;
+  left: 81.1%;
+  height: 18px;
   top: 54%;
 }
 #twitter {
   display: flex;
   position: absolute;
-  left: 88.8%;
+  left: 88.7%;
   top: 54%;
-  width: 17px;
-  height: 17px;
+  width: 16.8px;
+  height: 16.8px;
 }
 #instagram {
   display: flex;
   position: absolute;
   left: 96%;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 19px;
   top: 53%;
 }
