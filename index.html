@@ -8,7 +8,7 @@
   <title>
     Airbnb: Vacation Rentals, Cabin, Beach Houses, Unique Homes & ...
   </title>
-  <link rel="icon" href="img/airbnb_apps_platform_icon_176100.png" />
+  <link rel="icon" href="img/favicon.ico" />
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <style type="text/css" media="screen, print">
@@ -74,26 +74,26 @@
     <!-- search bar starts here -->
     <!-- ------------------------------------------ -->
     <div class="search-bar">
-      <div>
+      <div id="search-bar-1">
         <ul id="search-bar-ul1">
           <li id="search-bar-ul1-location">Location</li>
           <li id="search-bar-ul1-where">Where are you going?</li>
         </ul>
       </div>
-      <div>
+      <div id="search-bar-2">
         <ul id="search-bar-ul2">
           <li id="search-bar-ul2-check-in">Check in</li>
           <li id="search-bar-ul2-add-dates1">Add dates</li>
         </ul>
       </div>
-      <div>
-        <ul id="search-bar-ul3">
+      <div id="search-bar-3">
+        <ul id="search-bar-ul3" class="border-disapear">
           <li id="search-bar-ul3-check-out">Check out</li>
           <li id="search-bar-ul3-add-dates2">Add dates</li>
         </ul>
       </div>
-      <div>
-        <ul id="search-bar-ul4">
+      <div id="search-bar-4">
+        <ul id="search-bar-ul4" class="border-disapear">
           <li id="search-bar-ul4-guests">Guests</li>
           <li id="search-bar-ul4-add-guests">Add guests</li>
         </ul>
@@ -236,61 +236,66 @@
         </div>
       </div>
       <div class="loctaions-nav">
-        <div class="location-link">
-          <div class="location-link-item">
-            <span>Phoenix</span>
-            <span class="location-city">Arizona</span>
-          </div>
-          <div class="location-link-item">
-            <span>San Francisco</span>
-            <span class="location-city">California</span>
-          </div>
-          <div class="location-link-item">
-            <span>Keswick</span>
-            <span class="location-city">England</span>
-          </div>
-        </div>
-        <div class="location-link">
-          <div class="location-link-item">
-            <span>Hot Springs</span>
-            <span class="location-city">Arkansas</span>
-          </div>
-          <div class="location-link-item">
-            <span>Barcelona</span>
-            <span class="location-city">Catalonia</span>
-          </div>
-          <div class="location-link-item">
-            <span>London</span>
-            <span class="location-city">England</span>
-          </div>
-        </div>
-        <div class="location-link">
-          <div class="location-link-item">
-            <span>Los Angeles</span>
-            <span class="location-city">California</span>
-          </div>
-          <div class="location-link-item">
-            <span>Prague</span>
-            <span class="location-city">Czechia</span>
-          </div>
-          <div class="location-link-item">
-            <span>Scarborough</span>
-            <span class="location-city">England</span>
-          </div>
-        </div>
-        <div class="location-link">
-          <div class="location-link-item">
-            <span>San Diego</span>
-            <span class="location-city">California</span>
-          </div>
-          <div class="location-link-item">
-            <span>Washington</span>
-            <span class="location-city">District of Columbia</span>
-          </div>
-          <div class="location-link-item">
-            <span class="show-more">Show more</span>
-          </div>
-        </div>
+        <ul class="location-link" id="location-link-1">
+
+          <li class="location-link-item">
+            <li class="location-area">Phoenix</li>
+            <li class="location-city">Arizona</li>
+          </li>
+
+          <li class="location-link-item">
+            <li class="location-area">San Francisco</li>
+            <li class="location-city">California</span>
+          </li>
+
+          <li class="location-link-item">
+            <li class="location-area">Keswick</li>
+            <li class="location-city">England</li>
+          </li>
+
+        </ul>
+        
+        <ul class="location-link" id="location-link-2">
+          <li class="location-link-item">
+            <li class="location-area">Hot Springs</li>
+            <li class="location-city">Arkansas</li>
+          </li>
+          <li class="location-link-item">
+            <li class="location-area">Barcelona</li>
+            <li class="location-city">Catalonia</li>
+          </li>
+          <li class="location-link-item">
+            <li class="location-area">London</li>
+            <li class="location-city">England</li>
+          </li>
+        </ul>
+        <ul class="location-link" id="location-link-3">
+          <li class="location-link-item">
+            <li class="location-area">Los Angeles</li>
+            <li class="location-city">California</li>
+          </li>
+          <li class="location-link-item">
+            <li class="location-area">Prague</li>
+            <li class="location-city">Czechia</li>
+          </li>
+          <li class="location-link-item">
+            <li class="location-area">Scarborough</li>
+            <li class="location-city">England</li>
+          </li>
+        </ul>
+        <ul class="location-link" id="location-link-4">
+          <li class="location-link-item">
+            <li class="location-area">San Diego</li>
+            <li class="location-city">California</li>
+          </li>
+          <li class="location-link-item">
+            <li class="location-area">Washington</li>
+            <li class="location-city">District of Columbia</li>
+          </li>
+          <li class="location-link-item">
+            <li class="show-more">Show more</li>
+          </li>
+        </ul>
       </div>
     </div>
 
