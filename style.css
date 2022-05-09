@@ -1,8 +1,27 @@
+@font-face {
+  font-family: Circular;
+  src: url(fonts/Font/Circular-light.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Circular;
+  src: url(fonts/Font/Circular-medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Circular-medium-550;
+  src: url(fonts/Font/Circular-medium.ttf);
+  font-weight: 550;
+}
+@font-face {
+  font-family: Circular;
+  src: url(fonts/Font/Circular-bold.ttf);
+  font-weight: 600;
+}
+
 body {
   background-color: white;
   margin: 0;
-  /* width: 87.33333333333333%; */
-  /* left: -30px; */ /* right: 80px; */
   height: 100vw;
   margin: 0px 80px;
   background: linear-gradient(
@@ -28,7 +47,6 @@ body {
   color: white;
   width: 100%;
   height: 80px;
-  /* overflow-x: hidden; */
 }
 
 /* logo in heder starts here */
@@ -170,7 +188,6 @@ body {
   align-items: center;
   align-content: center;
   justify-content: center;
-  /* background: transparent; */
   border-radius: 24px;
   width: 47%;
   height: 42px;
@@ -182,8 +199,8 @@ body {
 #right-menu-become {
   position: relative;
   left: 0.5%;
-  font-family: "Circular-medium";
-  font-weight: 100;
+  font-family: Circular;
+  font-weight: 500;
   width: 103px;
   font-size: 14px;
 }
@@ -238,8 +255,6 @@ body {
 #user-icon {
   position: relative;
   width: 78%;
-  /* right: -6%;
-            bottom: -13%; */
   left: -5%;
 }
 
@@ -248,7 +263,6 @@ body {
 .content {
   width: 100%;
   height: 100%;
-  /* overflow-x: hidden; */ /* background-color: white; */
 }
 /* search bar in main content starts here */
 /* ---------------------------------------------------------- */
@@ -266,6 +280,24 @@ body {
   color: black;
   align-items: center;
 }
+/* ---------------------------------- */
+.divider {
+  position: relative;
+}
+.divider::before {
+  content: "";
+  position: absolute;
+  border-right: 1px solid rgb(221, 221, 221);
+  height: 32px;
+  top: 17px;
+  left: -1px;
+}
+
+.search-bar-divider:hover::before,
+.search-bar-divider:hover + .search-bar-divider::before {
+  height: 0;
+}
+
 /* ---------------------------------- */
 #search-bar-1 {
   display: flex;
@@ -294,14 +326,15 @@ body {
 #search-bar-2 {
   display: flex;
   position: absolute;
-  left: 31.7%;
+  left: 31.8%;
   height: 100%;
-  width: 21%;
+  width: 20.9%;
 }
 
 #search-bar-2:hover {
   background-color: #ebebebd3;
   border-radius: 32px;
+  cursor: pointer;
 }
 
 #search-bar-ul2 {
@@ -310,11 +343,9 @@ body {
   height: 47%;
   width: 76%;
   left: -0.2%;
-  border-left: 1px solid;
-  border-left-style: groove;
 }
 #search-bar-ul2:hover {
-  border-left: 1px solid white;
+  /* border-left: 1px solid white; */
 }
 /* ------------------------------ */
 #search-bar-3 {
@@ -322,12 +353,13 @@ body {
   position: absolute;
   left: 52.8%;
   height: 100%;
-  width: 21.0%;
+  width: 21%;
 }
 
 #search-bar-3:hover {
   background-color: #ebebebd3;
   border-radius: 32px;
+  cursor: pointer;
 }
 
 #search-bar-ul3 {
@@ -337,15 +369,11 @@ body {
   height: 47%;
   width: 77%;
   left: 0%;
-  border-left: 1px solid;
-  border-left-style: groove;
 }
 #search-bar-ul3:hover {
-  border-left: 1px solid white;
+  /* border-left: 1px solid white; */
 }
-.border-disapear {
-  border: none;
-}
+
 /* ------------------------------ */
 #search-bar-4 {
   display: flex;
@@ -358,6 +386,7 @@ body {
 #search-bar-4:hover {
   background-color: #ebebebd3;
   border-radius: 32px;
+  cursor: pointer;
 }
 
 #search-bar-ul4 {
@@ -367,28 +396,24 @@ body {
   height: 47%;
   width: 81%;
   left: -0.3%;
-  border-left: 1px solid;
-  border-left-style: groove;
 }
 #search-bar-ul4:hover {
-  border-left: 1px solid white;
+  /* border-left: 1px solid white; */
 }
 /* ------------------------------ */
 .search-bar li {
   position: absolute;
   list-style: none;
-  /* left: -7%; */
 }
 /* ---------------------------------- */
 #search-bar-ul1-location {
   display: flex;
   position: absolute;
-  font-size: 11px;
-  font-family: "Circular-medium";
-  font-weight: bold;
+  font-size: 12px;
+  font-family: Circular;
+  font-weight: 600;
   top: -3%;
-  /* margin-bottom: 2%; word-spacing: 15px; */
-  letter-spacing: 0.1em;
+  letter-spacing: 0.04em;
   left: 9.6%;
 }
 #search-bar-ul1-where {
@@ -404,20 +429,19 @@ body {
   display: flex;
   position: absolute;
   font-size: 12.5px;
-  font-family: "Circular-bold";
-  font-weight: 100;
-  /* margin-bottom: 5%; */
+  font-family: Circular;
+  font-weight: 550;
   left: 13.5%;
   top: -3%;
   letter-spacing: 0.02em;
-  font-family: "Circular-bold";
+  font-family: Circular;
 }
 #search-bar-ul2-add-dates1 {
   display: flex;
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 13.5%;
+  left: 13.7%;
   top: 55%;
 }
 /* ---------------------------------- */
@@ -426,10 +450,9 @@ body {
   position: absolute;
   font-size: 12.2px;
   font-weight: bolder;
-  /* margin-bottom: 5%; */
   top: -3%;
-  left: 13.3%;
-  font-family: "Circular-bold";
+  left: 13.6%;
+  font-family: Circular;
   letter-spacing: 0.03em;
 }
 #search-bar-ul3-add-dates2 {
@@ -437,7 +460,7 @@ body {
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 13.3%;
+  left: 13.6%;
   top: 56%;
 }
 /* ---------------------------------- */
@@ -446,19 +469,21 @@ body {
   position: absolute;
   font-size: 12.5px;
   font-weight: bolder;
-  /* margin-bottom: 5%; */
-  left: 11.1%;
+  left: 11.5%;
   top: -3%;
-  font-family: "Circular-bold";
-  letter-spacing: 0.01em;
+  font-family: Circular;
+  letter-spacing: 0.015em;
 }
 #search-bar-ul4-add-guests {
   display: flex;
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 11.1%;
+  left: 11.5%;
   top: 57%;
+}
+
+li#search-bar-ul4-add-guests {
 }
 /* --------search-bar-magnifier------- */
 #search-bar-magnifier {
@@ -494,8 +519,8 @@ body {
 }
 #search-text {
   /* font-size: 16px;
-        font-weight: bold;
-        color: white; */
+  font-weight: bold;
+  color: white; */
 }
 
 /* red section in main content starts here */
@@ -503,14 +528,15 @@ body {
 
 #redSection-help-refugees {
   background-color: #ff385c;
-  height: 27%;
+  height: 26.99%;
   border-radius: 12px;
   display: flex;
   position: relative;
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin-top: 6.4%;
+  margin-top: 6.35%;
+  top: 0.3px;
 }
 #redSection-help-refugees-div {
   display: flex;
@@ -522,24 +548,28 @@ body {
   bottom: 3.2%;
 }
 #help {
+  position: relative;
   padding-left: 0%;
   padding-right: 0%;
   background: #ff385c;
-  font-size: 37px;
-  font-weight: bolder;
+  font-size: 38.25px;
+  font-weight: 500;
   color: white;
-  line-height: 38%;
-  letter-spacing: 0.01rem; /* top: 130%; */
+  line-height: 30%;
+  left: 0px;
+  letter-spacing: -0.055rem;
+  top: -0.1px;
+  position: relative;
 }
 #LearnMore {
   border: 1px solid #ffffff;
   border-radius: 8px;
   color: white;
   font-size: 14px;
-  padding: 9px 16.7px;
+  padding: 9px 16px;
   text-decoration: none;
-  /* font-weight: bold; */
-  font-family: "Circular-medium";
+  font-weight: 500;
+  font-family: Circular;
   top: 1px;
 }
 
@@ -554,9 +584,8 @@ body {
   justify-content: center;
   flex-direction: column;
   width: auto;
-  /* background-color: navajowhite; */
   height: 43.65%;
-  top: 6.95%;
+  top: 6.99%;
 }
 
 #let-your-curiosity-div {
@@ -586,33 +615,34 @@ body {
   align-content: center;
   justify-content: center;
   color: white;
-  top: 61.8%;
-  font-weight: 600;
-  font-family: "Circular-light";
-  font-size: 232%;
-  letter-spacing: 0.01rem;
+  top: 62.23%;
+  font-weight: 500;
+  font-family: Circular;
+  font-size: 38px;
+  letter-spacing: -0.76px;
   left: 26.3%;
+  line-height: 43px;
 }
 #let-your-curiosity-button {
   display: flex;
   position: absolute;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   background-color: white;
   top: 79.8%;
   border-radius: 54px;
-  width: 13.5%;
+  width: 13.55%;
   height: 9.4%;
   font-size: 18px;
   font-weight: bold;
   border: none;
+  line-height: 17px;
 }
 #let-your-curiosity-button:hover {
   cursor: pointer;
 }
 #let-your-curiosity-button p {
-  font-family: "Circular-bold"; /* font-weight: 600; */
+  font-family: Circular;
+  font-weight: 600;
+  font-size: 17.7px;
   letter-spacing: 0.01rem;
   background: -webkit-linear-gradient(
     90deg,
@@ -635,8 +665,7 @@ body {
   flex-direction: column;
   width: auto;
   height: 41.4%;
-  top: 14%;
-  cursor: pointer;
+  top: 14.1%;
   left: 0px;
 }
 /* -------------------------------------- */
@@ -653,12 +682,14 @@ body {
 }
 #inspiration-next-trip-text-p {
   position: absolute;
-  font-weight: bold;
-  font-size: 32px;
-  color: black;
-  letter-spacing: 0.006em;
+  font-weight: 500;
+  font-size: 33px;
+  color: rgb(34, 34, 34);
+  letter-spacing: -0.66px;
   left: 32.8%;
-  top: 13.5px;
+  line-height: 47px;
+  top: 9.5px;
+  font-family: "Circular";
 }
 /* ----------------------------------------- */
 #inspiration-next-trip-cities {
@@ -676,13 +707,16 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 10%;
+  top: 10.2%;
+}
+.city:hover {
+  cursor: pointer;
 }
 /* -----------city divs---------- */
 
 #eureka {
   height: 100%;
-  width: 23.45%;
+  width: 23.48%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 12px;
@@ -693,7 +727,7 @@ body {
 }
 #kansas {
   height: 100%;
-  width: 23.4%;
+  width: 23.48%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 12px;
@@ -701,10 +735,12 @@ body {
   left: 25.5%;
   position: absolute;
   background: rgb(188, 26, 110);
+  position: absolute;
+  left: 303.5px;
 }
 #hermann {
   height: 100%;
-  width: 23.4%;
+  width: 23.5%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 12px;
@@ -715,7 +751,7 @@ body {
 }
 #saint {
   height: 100%;
-  width: 23.4%;
+  width: 23.48%;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 12px;
@@ -723,6 +759,7 @@ body {
   left: 76.6%;
   position: absolute;
   background: rgb(217, 59, 48);
+  left: 910px;
 }
 /* -----------city images------------ */
 .inspire-cities-img {
@@ -754,59 +791,60 @@ body {
 
 .inspire-cities-upper-text-class {
   position: absolute;
-  top: 40%;
-  color: white;
-  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
   font-size: 27px;
+  letter-spacing: -0.2px;
   z-index: 1;
 }
 .inspire-cities-down-text-class {
   position: absolute;
   top: 50%;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 15px;
+  font-weight: 400;
   z-index: 1;
 }
 
 #city-eureka-upper-text {
-  left: 6.5%;
-  top: 48%;
+  left: 5.5%;
+  top: 47.6%;
 }
 #city-eureka-down-text {
   left: 6.5%;
-  top: 63%;
+  top: 61.55%;
 }
 
 #city-kansas-upper-text {
-  left: 6.5%;
-  top: 48%;
+  left: 5.5%;
+  top: 47.6%;
 }
 #city-kansas-down-text {
   left: 6.5%;
-  top: 63%;
+  top: 61.55%;
 }
 #city-hermann-upper-text {
-  left: 6.5%;
-  top: 55%;
+  left: 5.5%;
+  top: 54.6%;
 }
 #city-hermann-down-text {
   left: 6.5%;
-  top: 67%;
+  top: 65.95%;
 }
 #city-saint-upper-text {
-  left: 6.5%;
-  top: 55%;
+  left: 5.5%;
+  top: 54.6%;
 }
 #city-saint-down-text {
   left: 6.5%;
-  top: 67%;
+  top: 65.95%;
 }
 
 /* Discover Airbnb Experiences section in main content starts here */
 /* ---------------------------------------------------------- */
 
 #discover-experiences {
-  font-family: Circular-light;
+  font-family: Circular;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -816,7 +854,7 @@ body {
   background-color: white;
   width: auto;
   height: 45.5%;
-  top: 10.4%;
+  top: 10.45%;
   margin-bottom: 27%;
 }
 #discover-experiences-title {
@@ -828,9 +866,16 @@ body {
   height: 14%;
 }
 #discover-experiences-title p {
-  font-size: 32.5px;
-  font-weight: bold;
-  letter-spacing: 0.001rem;
+  position: RELATIVE;
+  top: 3px;
+  font-size: 33px;
+  color: rgb(34, 34, 34);
+  font-weight: 500;
+  letter-spacing: -0.66px;
+  line-height: 37px;
+}
+
+p {
 }
 #discover-experiences-content {
   display: flex;
@@ -861,32 +906,32 @@ img {
 #discover-experiences-content-left p {
   display: flex;
   right: 52%;
-  font-size: 250%;
-  color: white;
+  font-size: 41px;
+  color: rgb(255, 255, 255);
   z-index: 1;
   position: absolute;
   justify-content: center;
-  left: -1.2%;
-  top: 0%;
+  left: -7.5px;
+  top: -1px;
   width: 47%;
-  font-weight: bold;
-  line-height: 113%;
-  letter-spacing: 0.006rem;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.82px;
 }
 #discover-experiences-content-left button {
-  font-family: Circular-medium;
+  font-family: Circular;
   right: 77.2%;
-  top: 26.8%;
+  top: 26.85%;
   width: 24.1%;
   height: 8.3%;
   font-size: 16px;
-  /* font-weight: 600; */
+  font-weight: 500;
   color: black;
   background-color: white;
   z-index: 1;
   display: flex;
   position: absolute;
-  align-items: center;
+  line-height: 46px;
   border-radius: 8px;
   border: none;
 }
@@ -923,31 +968,32 @@ img {
 }
 #discover-experiences-content-right p {
   display: flex;
-  font-size: 250%;
-  color: white;
+  font-size: 41px;
+  color: rgb(255, 255, 255);
   z-index: 1;
   position: absolute;
   justify-content: center;
-  left: 15%;
+  left: 86.5px;
   width: 47%;
-  font-weight: bold;
-  line-height: 113%;
-  letter-spacing: 0.01rem;
+  top: -1px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.82px;
 }
 #discover-experiences-content-right button {
-  font-family: Circular-medium;
-  right: 52.2%;
-  top: 26.8%;
-  width: 32.9%;
-  height: 8.4%;
+  font-family: Circular;
+  right: 52.11%;
+  top: 26.85%;
+  width: 32.99%;
+  height: 8.3%;
   font-size: 16px;
-  /* font-weight: 600; */
+  font-weight: 500;
   color: black;
   background-color: white;
   z-index: 1;
   display: flex;
   position: absolute;
-  align-items: center;
+  line-height: 46px;
   border-radius: 8px;
   border: none;
 }
@@ -976,7 +1022,7 @@ img {
   justify-content: center;
   flex-direction: row;
   width: 100%;
-  top: -1.3%;
+  top: -1.25%;
   height: 33%;
   background-color: white;
 }
@@ -996,14 +1042,15 @@ img {
 
 #shop-left p {
   position: absolute;
-  color: black;
+  color: rgb(34, 34, 34);
   align-items: center;
-  top: -5.3%;
+  top: -5.4%;
   left: 0%;
-  font-size: 40.2px;
-  font-weight: 600;
-  line-height: 115%;
-  letter-spacing: 0.01rem;
+  font-size: 41px;
+  font-family: "Circular";
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: -0.02em;
 }
 
 #shop-left button {
@@ -1017,8 +1064,8 @@ img {
   align-items: baseline;
   position: absolute;
   left: 0%;
-  font-family: "Circular-medium";
-  font-weight: 100;
+  font-family: Circular;
+  font-weight: 500;
   font-size: 16px;
   line-height: 290%;
 }
@@ -1062,7 +1109,7 @@ img {
   text-align: center;
   position: relative;
   right: 6.9%;
-  top: -0.15%;
+  top: -0.1%;
 }
 
 .bottom-img {
@@ -1081,34 +1128,37 @@ img {
 }
 
 .question {
-  font-size: 72.5px;
-  font-weight: 600;
-  font-family: "Circular-light";
+  font-size: 74px;
+  position: relative;
+  font-weight: 500;
+  font-family: Circular;
   color: white;
   margin-top: -1px;
   margin-bottom: 0px;
   line-height: 78px;
-  letter-spacing: 0.01rem;
+  letter-spacing: -1.48px;
+  left: -1px;
+  top: -0.2px;
 }
 
 .ask-superhost {
   border: none;
-  width: 49.8%;
-  height: 20.82%;
+  width: 49.5%;
+  height: 20.8%;
   position: absolute;
   background-color: white;
   border-radius: 8px;
   color: black;
   font-family: Circular;
   font-size: 15.7px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 56%;
   cursor: pointer;
   align-items: end;
   line-height: 293%;
-  font-family: "Circular-medium";
-  font-weight: 100;
-  top: 119.5%;
+  font-family: Circular;
+  font-weight: 500;
+  top: 118.9%;
   left: -0.3%;
   letter-spacing: 0.01rem;
 }
@@ -1124,39 +1174,40 @@ img {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 30.5%;
+  height: 30.6%;
   position: relative;
-  top: 0.6%;
+  top: 0.7%;
   left: 0.2%;
 }
 
 .future-getaways-title {
   position: absolute;
   font-family: Circular;
-  font-weight: bold;
-  font-size: 22.2px;
-  top: 3.3%;
+  font-weight: 500;
+  font-size: 22px;
+  top: 3.45%;
   left: -0.2%;
-  letter-spacing: 0.01rem;
 }
 
 .bottom-link {
   display: flex;
   position: absolute;
-  top: 21.9%;
+  top: 21.6%;
   left: -0.5%;
   width: 100%;
   height: 7.5%;
-  border-bottom: 1px solid rgb(233, 230, 230);
+  border-bottom: 1px solid rgb(215 215 215);
+}
+
+.bottom-link {
 }
 .bottom-link-item {
   display: flex;
   position: absolute;
   width: 100%;
-  left: -0.5%;
-  height: 90%;
-  align-items: center;
-  top: -27%;
+  left: -6px;
+  top: -39%;
+  font-family: "Circular";
 }
 .bottom-link button {
   display: flex;
@@ -1180,22 +1231,27 @@ img {
   background-color: rgb(246, 246, 246);
   border-radius: 8px;
   z-index: 1;
+  font-family: Circular;
 }
 
 #bottom-link-item-1 {
   display: flex;
   position: absolute;
-  left: 0%;
-  top: -12%;
+  left: -0.1%;
+  top: -12.6%;
   align-items: center;
+  font-family: Circular;
+  font-size: 13.8px;
+  color: rgb(31, 31, 31);
 }
-#bottom-link-item-1:hover::before {
+
+#bottom-link-item-1::before {
   content: "";
   position: absolute;
   z-index: 2;
-  left: 4%;
-  right: 4%;
-  bottom: -11%;
+  left: 5%;
+  right: 5%;
+  bottom: -10%;
   background: #000000;
   height: 2px;
   -webkit-transform: translateY(4px);
@@ -1210,10 +1266,15 @@ img {
 #bottom-link-item-2 {
   display: flex;
   position: absolute;
-  left: 18.7%;
-  top: -12%;
+  left: 18.65%;
+  top: -12.6%;
+  font-family: "Circular";
+  font-size: 13.8px;
+  color: rgb(133, 133, 133);
 }
-#bottom-link-item-2:hover::before {
+
+/* uncomment this if you want a black line when hovering, its like clicking but its not! */
+/* #bottom-link-item-2:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1230,14 +1291,19 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-}
+} */
 #bottom-link-item-3 {
   display: flex;
   position: absolute;
   left: 40.5%;
-  top: -12%;
+  top: -12.6%;
+  font-family: "Circular";
+  font-size: 13.8px;
+  color: rgb(133, 133, 133);
 }
-#bottom-link-item-3:hover::before {
+
+/* uncomment this if you want a black line when hovering, its like clicking but its not! */
+/* #bottom-link-item-3:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1254,14 +1320,19 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-}
+} */
 #bottom-link-item-4 {
   display: flex;
   position: absolute;
-  left: 51.8%;
-  top: -12%;
+  left: 51.7%;
+  top: -12.6%;
+  font-family: "Circular";
+  font-size: 13.8px;
+  color: rgb(133, 133, 133);
 }
-#bottom-link-item-4:hover::before {
+
+/* uncomment this if you want a black line when hovering, its like clicking but its not! */
+/* #bottom-link-item-4:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1278,14 +1349,19 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-}
+} */
 #bottom-link-item-5 {
   display: flex;
   position: absolute;
-  left: 64.5%;
-  top: -12%;
+  left: 64.4%;
+  top: -12.6%;
+  font-family: "Circular";
+  font-size: 13.8px;
+  color: rgb(133, 133, 133);
 }
-#bottom-link-item-5:hover::before {
+
+/* uncomment this if you want a black line when hovering, its like clicking but its not! */
+/* #bottom-link-item-5:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1302,14 +1378,21 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-}
+} */
 #bottom-link-item-6 {
   display: flex;
   position: absolute;
   left: 78%;
-  top: -12%;
+  top: -12.6%;
+  font-family: "Circular";
+
+  font-weight: 500;
+  font-size: 13.9px;
+  color: rgb(133, 133, 133);
 }
-#bottom-link-item-6:hover::before {
+
+/* uncomment this if you want a black line when hovering, its like clicking but its not! */
+/* #bottom-link-item-6:hover::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -1326,7 +1409,7 @@ img {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-}
+} */
 
 /* -----------------locations------------------ */
 .loctaions-nav {
@@ -1364,7 +1447,7 @@ img {
 #location-link-3 {
   display: flex;
   position: absolute;
-  left: 43.8%;
+  left: 43.75%;
   width: 20%;
   height: 100%;
   top: 0%;
@@ -1385,7 +1468,7 @@ img {
   width: 20%;
   height: 20%;
   top: -0.3%;
-  left: -14.3%; /* font-size: 13px; */
+  left: -14.3%;
 }
 .location-link-item-1-1:hover {
   cursor: pointer;
@@ -1519,9 +1602,7 @@ img {
 .location-area {
   display: flex;
   position: absolute;
-  /* width: 20%; */
-  /* height: 20%; */
-  top: 21%;
+  top: 20.5%;
   font-size: 14px;
 }
 .location-link-item:hover {
@@ -1533,7 +1614,7 @@ img {
   color: gray;
   width: 20%;
   height: 20%;
-  top: 61.2%;
+  top: 59.5%;
   font-size: 14px;
 }
 
@@ -1541,15 +1622,16 @@ img {
 
 .show-more {
   text-decoration: underline;
-  /* font-weight: bold; */
-  font-family: "Circular-medium";
+  font-weight: 500;
+  font-family: Circular;
   font-size: 13.9px; /* left: -8%; */
   position: absolute;
-  top: 24%;
+  top: 21%;
+  letter-spacing: 0.005em;
 }
 
-/*-------------------footer---------------------------*/
-/* ---------------------------------------------------------- */
+/*-------------------footer------------------------------------------*/
+/* ----------------------------------------------------------------- */
 footer {
   background-color: rgb(247, 247, 247);
   display: flex;
@@ -1567,8 +1649,8 @@ footer {
   background-color: rgb(247, 247, 247);
   flex-direction: row;
   width: 100%;
-  height: 80%;
-  top: -2.1%;
+  height: 78%;
+  top: -2.7%;
   left: 0.1%;
 }
 #footer-top::before {
@@ -1577,7 +1659,7 @@ footer {
   z-index: 1;
   left: 6%;
   right: 6%;
-  bottom: -19px;
+  bottom: -28px;
   background: #e3e1e1;
   height: 1px;
   -webkit-transition-property: left, right;
@@ -1587,68 +1669,96 @@ footer {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-
+/* ------------------------------------------- */
 #footer-top li {
   list-style: none;
-  font-size: 14px;
 }
 .footer-top-header {
+  position: relative;
+  font-family: "Circular";
   font-weight: 600;
-  letter-spacing: 0.02rem;
+  font-size: 13.7px;
+  letter-spacing: 0.01rem;
   margin-bottom: 8%;
+  top: -1px;
+}
+#fth1 {
+  position: relative;
+  top: -0.6px;
+}
+#fth2 {
+  position: relative;
+  top: -0.5px;
 }
 #fth3 {
   margin-bottom: 10%;
+  position: relative;
+  top: -0.53px;
+  right: -0.2px;
 }
 #fth4 {
   margin-bottom: 10%;
+  position: relative;
+  top: -1px;
 }
-
+/* ------------------------------------ */
 #footer-top-1 {
   left: 2.7%;
   position: absolute;
-  top: 10%;
+  top: 11%;
 }
 .ft1 {
-  margin-bottom: 8%;
+  margin-bottom: 8.14%;
+  font-family: "Circular";
+  font-size: 14px;
+  top: -0.79px;
+  position: relative;
 }
 .ft1:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
+/* -------------------------- */
 #footer-top-2 {
   position: absolute;
   left: 25.2%;
-  top: 10%;
+  top: 11%;
 }
 .ft2 {
-  margin-bottom: 8.5%;
+  margin-bottom: 8.35%;
+  font-size: 14px;
 }
 .ft2:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
-
+/* -------------------------- */
 #footer-top-3 {
   position: absolute;
   left: 47.7%;
-  top: 10%;
+  top: 11%;
 }
 .ft3 {
   margin-bottom: 10.5%;
+  font-size: 14px;
 }
 .ft3:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
-
+/* -------------------------- */
 #footer-top-4 {
   position: absolute;
   left: 70.25%;
-  top: 10.15%;
+  top: 11.15%;
 }
 .ft4 {
   margin-bottom: 11%;
+  font-size: 14px;
 }
 .ft4:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #footer-bottom {
@@ -1660,17 +1770,17 @@ footer {
   justify-content: space-between;
   width: 100%;
   height: 19%;
-  /* border-top: 1px solid #cbcbcb; */
-  top: -1.5%;
+  top: 0.5%;
 }
-/* ----------------left-------------------- */
+/* -----------------footer------left------------------------------ */
+/* -------------------------------------------------------------- */
 #footer-bottom-left {
   display: flex;
   position: absolute;
   flex-direction: row;
   width: 25%;
   height: 57%;
-  top: 56%;
+  top: 54.1%;
   left: 4.9%;
   justify-content: space-evenly;
 }
@@ -1711,7 +1821,7 @@ a {
 #fb4 {
   display: flex;
   position: relative;
-  left: 1%;
+  left: 0.7%;
 }
 #fb5 {
   display: flex;
@@ -1724,7 +1834,7 @@ a {
 #fb6 {
   display: flex;
   position: relative;
-  left: 0.7%;
+  left: 0.65%;
 }
 #fb7 {
   display: flex;
@@ -1734,36 +1844,35 @@ a {
 #fb7:hover {
   text-decoration: underline;
 }
-/* ----------------right------------------ */
+/* ---------------footer-------right----------------------------- */
+/* -------------------------------------------------------------- */
 #footer-bottom-right {
   display: flex;
   position: absolute;
   width: 42%;
   height: 100%;
   left: 52%;
+  top: -1px;
 }
 #footer-bottom-right img,
 span,
 a:hover {
   cursor: pointer;
 }
-#footer-bottom-right img {
+.fbr-img {
   display: inline;
   margin-left: 1%;
   display: flex;
   position: absolute;
-  /* top: 54%; */
+  top: 53%;
 }
 #language-2 {
-  display: flex;
-  position: absolute;
-  position: absolute;
   display: flex;
   position: absolute;
   left: 239px;
   width: 19px;
   height: 19px;
-  top: 52%;
+  top: 38px;
 }
 #ENGLISH_US {
   display: flex;
@@ -1771,22 +1880,20 @@ a:hover {
 
   text-decoration: underline;
 
-  width: 77px;
-  font-family: "Circular-light";
-  font-weight: 600;
-  font-size: 14px;
+  width: 79px;
+  font-family: Circular;
+  font-weight: 500;
+  font-size: 13.7px;
   top: 53.5%;
   left: 46.8%;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.008rem;
 }
 #eur-sign {
   display: flex;
   position: absolute;
   text-underline-position: below;
-  /* text-decoration: underline; */
   left: 64.6%;
   width: 10px;
-  /* font-weight: 600; */
   top: 53.5%;
   font-size: 14px;
 }
@@ -1795,27 +1902,29 @@ a:hover {
   position: absolute;
   text-underline-position: below;
   text-decoration: underline;
-  left: 67.6%;
+  left: 67.5%;
   width: 28px;
-  font-weight: 600;
+  font-family: "Circular";
+  font-weight: 500;
   top: 53.5%;
-  font-size: 14px;
+  font-size: 13.7px;
+  letter-spacing: 0.015em;
 }
 #facebook {
   display: flex;
   position: absolute;
-  width: 18px;
+  width: 18.5px;
   left: 81.1%;
   height: 18px;
-  top: 54%;
+  top: 53%;
 }
 #twitter {
   display: flex;
   position: absolute;
   left: 88.7%;
-  top: 54%;
+  top: 53.1%;
   width: 16.8px;
-  height: 16.8px;
+  height: 17px;
 }
 #instagram {
   display: flex;
