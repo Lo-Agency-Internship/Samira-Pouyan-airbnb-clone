@@ -1810,11 +1810,8 @@ a {
   position: relative;
   left: 1%;
 }
-#fb1,
-#fb2,
-#fb4,
-#fb6:hover {
-  cursor: none;
+#fb1, #fb2, #fb4, #fb6:hover{
+  cursor:none;
 }
 #fb3 {
   display: flex;
