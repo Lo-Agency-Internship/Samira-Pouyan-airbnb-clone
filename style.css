@@ -1206,7 +1206,7 @@ img {
   position: absolute;
   width: 100%;
   left: -6px;
-  top: -39%;
+  top: -35%;
   font-family: "Circular";
 }
 .bottom-link button {
@@ -1602,7 +1602,7 @@ img {
 .location-area {
   display: flex;
   position: absolute;
-  top: 20.5%;
+  top: 21%;
   font-size: 14px;
 }
 .location-link-item:hover {
@@ -1626,7 +1626,7 @@ img {
   font-family: Circular;
   font-size: 13.9px; /* left: -8%; */
   position: absolute;
-  top: 21%;
+  top: 23%;
   letter-spacing: 0.005em;
 }
 
@@ -1680,26 +1680,26 @@ footer {
   font-size: 13.7px;
   letter-spacing: 0.01rem;
   margin-bottom: 8%;
-  top: -1px;
+  top: 19%;
 }
 #fth1 {
   position: relative;
-  top: -0.6px;
+  top: 0.4px;
 }
 #fth2 {
   position: relative;
-  top: -0.5px;
+  top: 0.1px;
 }
 #fth3 {
   margin-bottom: 10%;
   position: relative;
-  top: -0.53px;
+  top: 0.1px;
   right: -0.2px;
 }
 #fth4 {
   margin-bottom: 10%;
   position: relative;
-  top: -1px;
+  top: -0.1px;
 }
 /* ------------------------------------ */
 #footer-top-1 {
@@ -1770,7 +1770,7 @@ footer {
   justify-content: space-between;
   width: 100%;
   height: 19%;
-  top: 0.5%;
+  top: 0.9%;
 }
 /* -----------------footer------left------------------------------ */
 /* -------------------------------------------------------------- */
@@ -1809,6 +1809,12 @@ a {
   display: flex;
   position: relative;
   left: 1%;
+}
+#fb1,
+#fb2,
+#fb4,
+#fb6:hover {
+  cursor: none;
 }
 #fb3 {
   display: flex;
