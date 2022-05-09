@@ -34,9 +34,11 @@ body {
 /* logo in heder starts here */
 /* ---------------------------------------------------------- */
 .a-logo {
-  position: absolute;width: 9.4%;
+  position: absolute;
+  width: 9.4%;
   height: 12.5%;
-  left: 6%;margin-left: -1%;
+  left: 6%;
+  margin-left: -1%;
 }
 .a-logo:hover {
   cursor: pointer;
@@ -292,9 +294,9 @@ body {
 #search-bar-2 {
   display: flex;
   position: absolute;
-  left: 31.5%;
+  left: 31.7%;
   height: 100%;
-  width: 21.3%;
+  width: 21%;
 }
 
 #search-bar-2:hover {
@@ -307,20 +309,20 @@ body {
   position: absolute;
   height: 47%;
   width: 76%;
-  left: 1%;
+  left: -0.2%;
   border-left: 1px solid;
   border-left-style: groove;
 }
 #search-bar-ul2:hover {
-  border: none;
+  border-left: 1px solid white;
 }
 /* ------------------------------ */
 #search-bar-3 {
   display: flex;
   position: absolute;
-  left: 52.5%;
+  left: 52.8%;
   height: 100%;
-  width: 21.5%;
+  width: 21.0%;
 }
 
 #search-bar-3:hover {
@@ -334,13 +336,13 @@ body {
   left: -1%;
   height: 47%;
   width: 77%;
-  left: 1%;
+  left: 0%;
   border-left: 1px solid;
   border-left-style: groove;
 }
 #search-bar-ul3:hover {
-  
-border-left: 1px solid white;}
+  border-left: 1px solid white;
+}
 .border-disapear {
   border: none;
 }
@@ -348,9 +350,9 @@ border-left: 1px solid white;}
 #search-bar-4 {
   display: flex;
   position: absolute;
-  left: 73.5%;
+  left: 73.9%;
   height: 100%;
-  width: 26%;
+  width: 25%;
 }
 
 #search-bar-4:hover {
@@ -364,12 +366,12 @@ border-left: 1px solid white;}
   left: 0%;
   height: 47%;
   width: 81%;
-  left: 1%;
+  left: -0.3%;
   border-left: 1px solid;
   border-left-style: groove;
 }
 #search-bar-ul4:hover {
-  border: none;
+  border-left: 1px solid white;
 }
 /* ------------------------------ */
 .search-bar li {
@@ -405,7 +407,7 @@ border-left: 1px solid white;}
   font-family: "Circular-bold";
   font-weight: 100;
   /* margin-bottom: 5%; */
-  left: 13%;
+  left: 13.5%;
   top: -3%;
   letter-spacing: 0.02em;
   font-family: "Circular-bold";
@@ -415,7 +417,7 @@ border-left: 1px solid white;}
   position: absolute;
   font-size: 14px;
   opacity: 60%;
-  left: 13.2%;
+  left: 13.5%;
   top: 55%;
 }
 /* ---------------------------------- */
@@ -501,7 +503,7 @@ border-left: 1px solid white;}
 
 #redSection-help-refugees {
   background-color: #ff385c;
-  height: 27.0%;
+  height: 27%;
   border-radius: 12px;
   display: flex;
   position: relative;
@@ -1015,9 +1017,11 @@ img {
   align-items: baseline;
   position: absolute;
   left: 0%;
-  font-family: 'Circular-medium';font-weight: 100;
+  font-family: "Circular-medium";
+  font-weight: 100;
   font-size: 16px;
-line-height: 290%;}
+  line-height: 290%;
+}
 #shop-left button:hover {
   cursor: pointer;
   background-color: #000000;
@@ -1064,7 +1068,7 @@ line-height: 290%;}
 .bottom-img {
   width: 100%;
   justify-content: center;
-  height: 100.20%;
+  height: 100.2%;
   position: absolute;
   right: -0.1%;
 }
@@ -1101,7 +1105,9 @@ line-height: 290%;}
   margin-top: 56%;
   cursor: pointer;
   align-items: end;
-  line-height: 293%;font-family: 'Circular-medium';font-weight: 100;
+  line-height: 293%;
+  font-family: "Circular-medium";
+  font-weight: 100;
   top: 119.5%;
   left: -0.3%;
   letter-spacing: 0.01rem;
@@ -1328,7 +1334,8 @@ line-height: 290%;}
   position: absolute;
   width: 100%;
   height: 61%;
-top: 31%;}
+  top: 31%;
+}
 /* ------------------------------ */
 .location-link {
   flex: 10;
@@ -1342,7 +1349,8 @@ top: 31%;}
   width: 20%;
   height: 100%;
   left: -0.2%;
-top: 0%;}
+  top: 0%;
+}
 
 #location-link-2 {
   display: flex;
@@ -1482,7 +1490,7 @@ top: 0%;}
   left: 15.5%;
 }
 .location-link-item-4-1:hover {
- cursor: pointer;
+  cursor: pointer;
 }
 .location-link-item-4-2 {
   display: flex;
@@ -1494,7 +1502,7 @@ top: 0%;}
 }
 .location-link-item-4-2:hover {
   cursor: pointer;
- }
+}
 .location-link-item-4-3 {
   display: flex;
   position: absolute;
@@ -1516,7 +1524,7 @@ top: 0%;}
   top: 21%;
   font-size: 14px;
 }
-.location-link-item:hover{
+.location-link-item:hover {
   cursor: pointer;
 }
 .location-city {
@@ -1536,7 +1544,9 @@ top: 0%;}
   /* font-weight: bold; */
   font-family: "Circular-medium";
   font-size: 13.9px; /* left: -8%; */
-position: absolute;top: 24%;}
+  position: absolute;
+  top: 24%;
+}
 
 /*-------------------footer---------------------------*/
 /* ---------------------------------------------------------- */
@@ -1765,7 +1775,7 @@ a:hover {
   font-family: "Circular-light";
   font-weight: 600;
   font-size: 14px;
-  top: 54%;
+  top: 53.5%;
   left: 46.8%;
   letter-spacing: 0.01rem;
 }
@@ -1777,7 +1787,7 @@ a:hover {
   left: 64.6%;
   width: 10px;
   /* font-weight: 600; */
-  top: 52.5%;
+  top: 53.5%;
   font-size: 14px;
 }
 #EUR {
