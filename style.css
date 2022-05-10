@@ -83,7 +83,23 @@ body {
   justify-content: center;
 }
 
-.central-menu a:hover {
+/* .central-menu a:hover {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: rgb(190, 190, 190);
+} */
+#central-menu-a2:hover {
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: rgb(190, 190, 190);
+}
+#central-menu-a3:hover {
   display: flex;
   position: relative;
   align-items: center;
@@ -128,6 +144,22 @@ body {
 /* ----------------------------------- */
 #central-menu-li1 {
   right: 11.05%;
+}
+#central-menu-li1::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 0%;
+  right: 0%;
+  top: 139%;
+  background: #ffffff;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 #central-menu-li2 {
   right: 5.1%;
