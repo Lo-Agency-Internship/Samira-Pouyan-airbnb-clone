@@ -53,10 +53,11 @@ body {
 /* ---------------------------------------------------------- */
 .a-logo {
   position: absolute;
-  width: 9.4%;
-  height: 12.5%;
-  left: 6%;
+  width: 7.6%;
+  height: 4.20%;
+  left: 6.92%;
   margin-left: -1%;
+  filter: invert(1);
 }
 .a-logo:hover {
   cursor: pointer;
@@ -126,7 +127,7 @@ body {
 }
 /* ----------------------------------- */
 #central-menu-li1 {
-  right: 11%;
+  right: 11.05%;
 }
 #central-menu-li2 {
   right: 5.1%;
@@ -141,7 +142,7 @@ body {
 
 #central-menu-a2 {
   position: relative;
-  left: 0%;
+  left: 0.1%;
 }
 #central-menu-a3 {
   position: relative;
@@ -615,7 +616,7 @@ li#search-bar-ul4-add-guests {
   align-content: center;
   justify-content: center;
   color: white;
-  top: 62.23%;
+  top: 62.2365%;
   font-weight: 500;
   font-family: Circular;
   font-size: 38px;
